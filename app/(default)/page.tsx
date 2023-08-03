@@ -13,13 +13,17 @@ import Process from '@/components/process'
 import FeaturesHome from '@/components/features'
 import Tabs from '@/components/tabs'
 import Target from '@/components/target'
-import News from '@/components/news'
 import Newsletter from '@/components/newsletter'
+import Particles from '@/components/particles'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <Particles
+        className='absolute inset-0 -z-10 animate-fade-in'
+        quantity={200}
+      />
 
       {/* <Process />
       <FeaturesHome /> */}
