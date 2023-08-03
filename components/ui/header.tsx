@@ -64,7 +64,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/hair'
-                    className='font-medium text-sm  hover:text-pink-300 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-sm  hover:text-pink-300 flex py-2 px-4 leading-tight'
                   >
                     HAIR
                   </Link>
@@ -80,7 +80,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/'
-                    className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
                   >
                     Services
                   </Link>
@@ -96,7 +96,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/contact'
-                    className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-md  hover:text-pink-400 flex py-2 px-4 leading-tight'
                   >
                     FUR MAIN
                   </Link>
@@ -112,7 +112,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/'
-                    className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
                   >
                     SERVICES
                   </Link>
@@ -128,7 +128,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/contact'
-                    className='font-semibold text-md  hover:text-violet-300 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-md  hover:text-pink-300 flex py-2 px-4 leading-tight'
                   >
                     FUR MAIN
                   </Link>
@@ -144,7 +144,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/'
-                    className='font-semibold text-md  hover:text-emerald-300 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-md  hover:text-violet-300 flex py-2 px-4 leading-tight'
                   >
                     SERVICES
                   </Link>

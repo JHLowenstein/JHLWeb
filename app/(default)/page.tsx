@@ -25,7 +25,7 @@ export default function Home() {
       <FeaturesHome /> */}
       {/* <Tabs /> */}
       <Target />
-      <News />
+      {/* <News /> */}
       <Newsletter />
     </>
   )
