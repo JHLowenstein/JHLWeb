@@ -74,7 +74,7 @@ export default function Header() {
                     href='/'
                     className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
                   >
-                    Products
+                    PRODUCTS
                   </Link>
                 </li>
                 <li>
@@ -82,7 +82,7 @@ export default function Header() {
                     href='/'
                     className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
                   >
-                    Services
+                    SERVICES
                   </Link>
                 </li>
               </Dropdown>
@@ -95,10 +95,10 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href='/contact'
+                    href='/fur'
                     className='font-semibold text-md  hover:text-pink-400 flex py-2 px-4 leading-tight'
                   >
-                    FUR MAIN
+                    FUR
                   </Link>
                 </li>
                 <li>
@@ -127,10 +127,10 @@ export default function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href='/contact'
+                    href='/leather'
                     className='font-semibold text-md  hover:text-pink-300 flex py-2 px-4 leading-tight'
                   >
-                    FUR MAIN
+                    LEATHER
                   </Link>
                 </li>
                 <li>

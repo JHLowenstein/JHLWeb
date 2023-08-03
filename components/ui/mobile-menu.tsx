@@ -69,42 +69,6 @@ export default function MobileMenu() {
         }
       >
         <ul className='bg-gray-800 px-4 py-2'>
-          <li>
-            <Link
-              href='/features'
-              className='flex text-gray-300 hover:text-gray-200 py-2'
-              onClick={() => setMobileNavOpen(false)}
-            >
-              Features
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='/pricing'
-              className='flex text-gray-300 hover:text-gray-200 py-2'
-              onClick={() => setMobileNavOpen(false)}
-            >
-              Pricing
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='/blog'
-              className='flex text-gray-300 hover:text-gray-200 py-2'
-              onClick={() => setMobileNavOpen(false)}
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              href='/about'
-              className='flex text-white hover:text-gray-200 py-2'
-              onClick={() => setMobileNavOpen(false)}
-            >
-              COMPANY
-            </Link>
-          </li>
           <li className='py-2 my-2 border-t border-b border-gray-700'>
             <span className='flex text-white py-2'>HAIR</span>
             <ul className='pl-4'>
@@ -201,6 +165,25 @@ export default function MobileMenu() {
               </li>
             </ul>
           </li>
+          <li>
+            <Link
+              href='/company'
+              className='flex text-white hover:text-gray-200 py-2'
+              onClick={() => setMobileNavOpen(false)}
+            >
+              COMPANY
+            </Link>
+          </li>
+          <li>
+            <Link
+              href='/contact'
+              className='flex text-gray-300 hover:text-gray-200 py-2'
+              onClick={() => setMobileNavOpen(false)}
+            >
+              Contact
+            </Link>
+          </li>
+
           {/* <li>
             <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Sign in
