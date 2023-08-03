@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero-home'
-import MainCard from '@/components/mainCard'
+
 import Process from '@/components/process'
 import FeaturesHome from '@/components/features'
 import Tabs from '@/components/tabs'
@@ -20,10 +20,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <MainCard />
-      <Process />
-      <FeaturesHome />
-      <Tabs />
+
+      {/* <Process />
+      <FeaturesHome /> */}
+      {/* <Tabs /> */}
       <Target />
       <News />
       <Newsletter />
