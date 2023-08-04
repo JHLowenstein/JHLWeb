@@ -78,7 +78,7 @@ export default function MobileMenu() {
                   className='text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2'
                   onClick={() => setMobileNavOpen(false)}
                 >
-                  MAIN
+                  HAIR MAIN
                 </Link>
               </li>
               <li>
@@ -110,7 +110,7 @@ export default function MobileMenu() {
                   className='text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2'
                   onClick={() => setMobileNavOpen(false)}
                 >
-                  MAIN
+                  FUR MAIN
                 </Link>
               </li>
               <li>
@@ -142,7 +142,7 @@ export default function MobileMenu() {
                   className='text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2'
                   onClick={() => setMobileNavOpen(false)}
                 >
-                  MAIN
+                  LEATHER MAIN
                 </Link>
               </li>
               <li>

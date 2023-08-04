@@ -1,5 +1,8 @@
+'use client'
 import HeroLogo from '@/public/images/favicon.png'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+
 import Hair from '@/public/images/hm.png'
 import Fur from '@/public/images/fm.png'
 import Leather from '@/public/images/lm.png'
@@ -71,20 +74,26 @@ export default function HeroHome() {
                   className='flex flex-col h-full px-6 pb-6bg-white-800 rounded-xl'
                   data-aos='fade-up'
                 >
-                  <Link href='/hair'>
-                    <Image
-                      className='rounded-lg transition duration-700 ease-out'
-                      src={Hair}
-                      width={300}
-                      height={200}
-                      alt='hair model'
-                      style={{
-                        margin: 'auto',
-                        pointerEvents: 'none',
-                        zIndex: '12',
-                      }}
-                    />
-                  </Link>
+                  <motion.div
+                    className='box'
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                  >
+                    <Link href='/hair'>
+                      <Image
+                        className='rounded-lg transition duration-700 ease-out'
+                        src={Hair}
+                        width={300}
+                        height={200}
+                        alt='hair model'
+                        style={{
+                          margin: 'auto',
+                          pointerEvents: 'none',
+                          zIndex: '12',
+                        }}
+                      />
+                    </Link>
+                  </motion.div>
                 </div>
 
                 {/* Fur Box */}
@@ -92,19 +101,25 @@ export default function HeroHome() {
                   className='flex flex-col h-full px-6 pb-6 bg-white-800 rounded-xl'
                   data-aos='fade-up'
                 >
-                  <Link href='/fur'>
-                    <Image
-                      className='rounded-lg'
-                      src={Fur}
-                      width={300}
-                      height={200}
-                      alt='fur model'
-                      style={{
-                        margin: 'auto',
-                        pointerEvents: 'none',
-                      }}
-                    />
-                  </Link>
+                  <motion.div
+                    className='box'
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                  >
+                    <Link href='/fur'>
+                      <Image
+                        className='rounded-lg'
+                        src={Fur}
+                        width={300}
+                        height={200}
+                        alt='fur model'
+                        style={{
+                          margin: 'auto',
+                          pointerEvents: 'none',
+                        }}
+                      />
+                    </Link>
+                  </motion.div>
                 </div>
                 {/* <div
                   className='flex flex-col h-full p-6 bg-white-800 rounded-xl'
@@ -140,19 +155,25 @@ export default function HeroHome() {
                   className='flex flex-col h-full px-6 pb-6 bg-white-800 rounded-xl'
                   data-aos='fade-up'
                 >
-                  <Link href='/leather'>
-                    <Image
-                      className='rounded-lg'
-                      src={Leather}
-                      width={300}
-                      height={200}
-                      alt='leather model'
-                      style={{
-                        margin: 'auto',
-                        pointerEvents: 'none',
-                      }}
-                    />
-                  </Link>
+                  <motion.div
+                    className='box'
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                  >
+                    <Link href='/leather'>
+                      <Image
+                        className='rounded-lg'
+                        src={Leather}
+                        width={300}
+                        height={200}
+                        alt='leather model'
+                        style={{
+                          margin: 'auto',
+                          pointerEvents: 'none',
+                        }}
+                      />
+                    </Link>
+                  </motion.div>
                 </div>
                 {/* <div
                   className='flex flex-col h-full p-6 bg-white-800 rounded-xl'

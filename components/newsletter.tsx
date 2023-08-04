@@ -1,7 +1,7 @@
 export default function Newsletter() {
   return (
     <section>
-      <div className='max-w-6xl mx-auto px-4 sm:px-6'>
+      <div className='max-w-6xl mx-auto px-4 sm:px-6 mb-20'>
         {/* CTA box */}
         <div
           className='relative bg-white text-black py-10 px-8 md:py-16 md:px-12'
@@ -44,11 +44,9 @@ export default function Newsletter() {
             {/* CTA content */}
             <div className='mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2'>
               <h3 className='h3 text-black font-semibold mb-2'>
-                <h6 className=' font-bold mb-1'>
-                  <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                    Stay in the loop
-                  </span>{' '}
-                </h6>
+                <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                  Stay in the loop
+                </span>{' '}
               </h3>
               <p className='text-black font-semibold text-lg'>
                 Join our newsletter to get the newest{' '}
