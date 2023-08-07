@@ -39,37 +39,8 @@ export default function CardMain() {
                       BRIGHT BOLD BEAUTIFUL
                     </span>{' '}
                   </div>
-
                   <div
-                    className='mt-6'
-                    data-aos='fade-left'
-                    data-aos-delay='400'
-                    data-aos-anchor='[data-aos-id-target]'
-                  >
-                    <h5 className='h5 text-lg font-semibold mb-2'>
-                      <span className='text-emerald-300'>Raw Materials</span>
-                    </h5>
-                    <p className='text-lg text-gray-400'>
-                      JHL provides a complete line of raw materials for the hair
-                      color manufacturer.
-                    </p>
-                  </div>
-                  <div
-                    className='mt-6'
-                    data-aos='fade-left'
-                    data-aos-delay='600'
-                    data-aos-anchor='[data-aos-id-target]'
-                  >
-                    <h5 className='h5 text-lg font-semibold mb-2'>
-                      <span className='text-violet-300'>Technical Staff</span>
-                    </h5>
-                    <p className='text-lg text-gray-400'>
-                      Our technical staff is well versed in all phases of the
-                      hair color formulator’s requirements.
-                    </p>
-                  </div>
-                  <div
-                    className='mt-6'
+                    className='my-6'
                     data-aos='fade-left'
                     data-aos-delay='200'
                     data-aos-anchor='[data-aos-id-target]'
@@ -85,6 +56,40 @@ export default function CardMain() {
                       conditioning. Dyestuff and base materials are also
                       available for semi-permanent and specialty systems.
                     </p>
+                  </div>
+                  <div
+                    className='mb-6'
+                    data-aos='fade-left'
+                    data-aos-delay='400'
+                    data-aos-anchor='[data-aos-id-target]'
+                  >
+                    <h5 className='h5 text-lg font-semibold mb-2'>
+                      <span className='text-emerald-300'>Raw Materials</span>
+                    </h5>
+                    <p className='text-lg text-gray-400'>
+                      JHL provides a complete line of raw materials for the hair
+                      color manufacturer. Our technical staff is well versed in
+                      all phases of the hair color formulator’s requirements.
+                    </p>
+                  </div>
+                  <div
+                    className='mb-6'
+                    data-aos='fade-left'
+                    data-aos-delay='600'
+                    data-aos-anchor='[data-aos-id-target]'
+                  >
+                    <h5 className='h5 text-lg font-semibold mb-2'>
+                      <span className='text-violet-300'>Technical Staff</span>
+                    </h5>
+                    <p className='text-lg text-gray-400'></p>
+                    <div data-aos='fade-up' data-aos-delay='400'>
+                      {/* <a
+                        className='mt-5 btn text-lg text-white font-semibold bg-violet-300 rounded-xl hover:bg-violet-400 w-full mb-10 sm:w-auto '
+                        href='/hair'
+                      >
+                        Services
+                      </a> */}
+                    </div>
                   </div>
                 </div>
               </div>

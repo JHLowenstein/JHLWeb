@@ -5,11 +5,10 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import PageIllustration from '@/components/page-illustration'
-import Header from '@/components/ui/header'
-import Footer from '@/components/ui/footer'
+import '@/app/css/style.css'
+import HairHeader from '@/components/ui/hairHeader'
 
-export default function DefaultLayout({
+export default function HairLayout({
   children,
 }: {
   children: React.ReactNode
@@ -25,14 +24,12 @@ export default function DefaultLayout({
 
   return (
     <>
-      <Header />
+      <HairHeader />
       <main className='grow'>
-        <PageIllustration />
+        {/* <PageIllustration /> */}
 
         {children}
       </main>
-
-      <Footer />
     </>
   )
 }

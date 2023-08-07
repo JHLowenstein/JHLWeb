@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import TargetImage from '@/public/images/Color1897.png'
+import Color1897 from '@/public/images/Color1897.png'
 
 export default function Target() {
   return (
@@ -26,8 +26,8 @@ export default function Target() {
                 data-aos-anchor='[data-aos-id-target]'
               >
                 <Image
-                  className='mx-auto md:max-w-none'
-                  src={TargetImage}
+                  className='mx-auto rounded-xl md:max-w-none'
+                  src={Color1897}
                   width={540}
                   height={520}
                   alt='Features 02'

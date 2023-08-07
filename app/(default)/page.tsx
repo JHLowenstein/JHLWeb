@@ -26,8 +26,8 @@ export default function Home() {
       />
 
       {/* <Process /> */}
-      <FeaturesHome />
-      <Tabs />
+      {/* <FeaturesHome />
+      <Tabs /> */}
       <Target />
       {/* <News /> */}
       <Newsletter />

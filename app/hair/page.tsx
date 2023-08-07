@@ -8,8 +8,9 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero-hair'
+import HairCard from '@/components/hairMainCard'
 
-import MainCard from '@/components/hairMainCard'
+import HairZigZag from '@/components/hairZigZag'
 import FeaturesHome from '@/components/features'
 import Tabs from '@/components/tabs'
 import Target from '@/components/target'
@@ -24,7 +25,8 @@ export default function Hair() {
         className='absolute inset-0 -z-10 animate-fade-in'
         quantity={200}
       />
-      <MainCard />
+
+      <HairZigZag />
       <Newsletter />
     </section>
   )
