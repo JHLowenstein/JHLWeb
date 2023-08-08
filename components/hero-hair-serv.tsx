@@ -11,7 +11,7 @@ export default function Hero() {
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative '>
         {/* Hero content */}
         <section className='relative'>
-          <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-40'>
+          <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
             <div className='pt-32 pb-12 md:pt-40 md:pb-10'>
               <div className='max-w-3xl mx-auto text-center'>
                 {/* Top image */}

@@ -12,9 +12,16 @@ export default function Blocks() {
               </span>{' '}
               requirements.
             </h3>
-            <p className='text-xl text-gray-400'>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+            <p
+              className='text-xl font-medium text-gray-300 mb-8'
+              data-aos='fade-up'
+              data-aos-delay='200'
+            >
+              The entire team at JHL provides comprehensive{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                SERVICE AND SUPPORT
+              </span>{' '}
+              to all our clients nationally and globally
             </p>
           </div>
 
@@ -35,7 +42,7 @@ export default function Blocks() {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <rect
-                  className='fill-current text-purple-600'
+                  className='fill-current text-violet-500'
                   width='64'
                   height='64'
                   rx='32'
@@ -56,36 +63,7 @@ export default function Blocks() {
                   />
                 </g>
               </svg>
-              {/* <svg
-                className='w-16 h-16 mb-4'
-                viewBox='0 0 64 64'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <rect
-                  className='fill-current text-purple-600'
-                  width='64'
-                  height='64'
-                  rx='32'
-                />
-                <g
-                  transform='translate(22 21)'
-                  strokeLinecap='square'
-                  strokeWidth='2'
-                  fill='none'
-                  fillRule='evenodd'
-                >
-                  <path
-                    className='stroke-current text-pink-400'
-                    d='M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5'
-                  />
-                  <circle
-                    className='stroke-current text-emerald-500'
-                    cx='13'
-                    cy='9'
-                    r='3'
-                  />
-                </g>
-              </svg> */}
+
               <h4 className='h4 mb-2'>COMMITMENT</h4>
               <p className='text-lg font-medium text-gray-300 text-center'>
                 <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
@@ -109,7 +87,7 @@ export default function Blocks() {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <circle
-                  className='fill-current text-purple-600'
+                  className='fill-current text-violet-500'
                   cx='32'
                   cy='32'
                   r='32'
@@ -153,7 +131,7 @@ export default function Blocks() {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <rect
-                  className='fill-current text-purple-600'
+                  className='fill-current text-violet-500'
                   width='64'
                   height='64'
                   rx='32'
@@ -208,7 +186,7 @@ export default function Blocks() {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <rect
-                  className='fill-current text-purple-600'
+                  className='fill-current text-violet-500'
                   width='64'
                   height='64'
                   rx='32'
@@ -254,7 +232,7 @@ export default function Blocks() {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <rect
-                  className='fill-current text-purple-600'
+                  className='fill-current text-violet-500'
                   width='64'
                   height='64'
                   rx='32'
@@ -308,7 +286,7 @@ export default function Blocks() {
                 xmlns='http://www.w3.org/2000/svg'
               >
                 <rect
-                  className='fill-current text-purple-600'
+                  className='fill-current text-violet-500'
                   width='64'
                   height='64'
                   rx='32'
