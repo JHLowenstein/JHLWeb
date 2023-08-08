@@ -4,7 +4,7 @@ export default function Newsletter() {
       <div className='max-w-6xl mx-auto px-4 sm:px-6 mb-20'>
         {/* CTA box */}
         <div
-          className='relative bg-white text-black py-10 px-8 md:py-16 md:px-12'
+          className='relative  text-white py-10 px-8 md:py-16 md:px-12'
           data-aos='fade-up'
         >
           {/* Background illustration */}
@@ -43,12 +43,12 @@ export default function Newsletter() {
           <div className='relative flex flex-col lg:flex-row justify-between items-center'>
             {/* CTA content */}
             <div className='mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2'>
-              <h3 className='h3 text-black font-semibold mb-2'>
+              <h3 className='h3 text-gray-200 font-semibold mb-2'>
                 <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
                   Stay in the loop
                 </span>{' '}
               </h3>
-              <p className='text-black font-semibold text-lg'>
+              <p className='text-gray-200 font-semibold text-lg'>
                 Join our newsletter to get the newest{' '}
                 <span className='font-bold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
                   Colors
@@ -62,7 +62,7 @@ export default function Newsletter() {
               <div className='flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none'>
                 <input
                   type='email'
-                  className='w-full font-semibold rounded-md appearance-none bg-black border border-pink-300 focus:border-teal-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-white'
+                  className='w-full font-semibold rounded-xl appearance-none bg-black border border-pink-300 focus:border-teal-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-white'
                   placeholder='Your best email…'
                   aria-label='Your best email…'
                 />

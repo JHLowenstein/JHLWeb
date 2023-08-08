@@ -81,7 +81,7 @@ export default function MobileMenu() {
 
           <li className='py-2 my-2 border-b border-gray-700'>
             <Link
-              href='/hair'
+              href='/hair/products'
               className='flex font-medium text-white hover:text-emerald-300 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
@@ -99,7 +99,7 @@ export default function MobileMenu() {
           </li>
           <li className='py-2 my-2 border-b border-gray-700'>
             <Link
-              href='/company'
+              href='/hair'
               className='flex font-medium text-white hover:text-sky-300 py-2'
               onClick={() => setMobileNavOpen(false)}
             >
@@ -108,7 +108,7 @@ export default function MobileMenu() {
           </li>
           <li>
             <Link
-              href='/company'
+              href='/hair'
               className='flex font-medium text-white hover:text-amber-300 py-2'
               onClick={() => setMobileNavOpen(false)}
             >

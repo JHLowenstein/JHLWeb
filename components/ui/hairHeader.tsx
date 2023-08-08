@@ -68,7 +68,7 @@ const HairHeader: React.FC = ({}) => {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='/hair/products'
                   className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
                 >
                   PRODUCTS
@@ -76,7 +76,7 @@ const HairHeader: React.FC = ({}) => {
               </li>
               <li>
                 <Link
-                  href='/'
+                  href='/hair/services'
                   className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
                 >
                   SERVICES

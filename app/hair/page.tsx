@@ -13,7 +13,7 @@ import HairCard from '@/components/hairMainCard'
 import HairZigZag from '@/components/hairZigZag'
 import FeaturesHome from '@/components/features'
 import Tabs from '@/components/tabs'
-import Target from '@/components/target'
+import Target from '@/components/home-target'
 import Newsletter from '@/components/newsletter'
 import Particles from '@/components/particles'
 

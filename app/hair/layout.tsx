@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 
 import '@/app/css/style.css'
 import HairHeader from '@/components/ui/hairHeader'
+import Footer from '@/components/ui/footer'
 
 export default function HairLayout({
   children,
@@ -30,6 +31,7 @@ export default function HairLayout({
 
         {children}
       </main>
+      <Footer />
     </>
   )
 }

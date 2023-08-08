@@ -64,7 +64,7 @@ export default function Header() {
                 <li>
                   <Link
                     href='/hair'
-                    className='font-semibold text-sm  hover:text-pink-300 flex py-2 px-4 leading-tight'
+                    className='font-semibold text-md  hover:text-pink-300 flex py-2 px-4 leading-tight'
                   >
                     HAIR
                   </Link>

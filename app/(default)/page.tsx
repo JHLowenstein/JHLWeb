@@ -11,8 +11,8 @@ import Hero from '@/components/hero-home'
 
 import Process from '@/components/process'
 import FeaturesHome from '@/components/features'
-import Tabs from '@/components/tabs'
-import Target from '@/components/target'
+import ZigZag from '@/components/homeZigZag'
+import Target from '@/components/home-target'
 import Newsletter from '@/components/newsletter'
 import Particles from '@/components/particles'
 
@@ -24,8 +24,7 @@ export default function Home() {
         className='absolute inset-0 -z-10 animate-fade-in'
         quantity={200}
       />
-
-      {/* <Process /> */}
+      <ZigZag />
       {/* <FeaturesHome />
       <Tabs /> */}
       <Target />

@@ -12,12 +12,16 @@ export default function hairZigZag() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         {/* Section header */}
-        <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
+        <div className='max-w-3xl mx-auto text-center pb-6'>
           <h1 className='h2 mb-4'>
-            PERFECTING THE ART OF HAIR COLOR FORMULATIONS
+            PERFECTING THE{' '}
+            <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+              ART
+            </span>{' '}
+            OF HAIR COLOR FORMULATIONS
           </h1>
         </div>
-        <div className='py-12 md:py-20 '>
+        <div className='py-12 md:pt-6 md:pb-20'>
           {/* Items */}
           <div className='grid gap-20'>
             {/* 1st item */}
@@ -51,8 +55,8 @@ export default function hairZigZag() {
                     for semi-permanent and specialty systems.
                   </p>
                   <a
-                    className='btn rounded-xl text-white font-semibold bg-rose-400 hover:bg-white shadow hover:text-rose-400 hover:border-violet-300'
-                    href='#0'
+                    className='btn rounded-xl text-white font-semibold bg-pink-400 hover:bg-white shadow hover:text-pink-400 hover:border-violet-300'
+                    href='/hair/products'
                   >
                     <motion.div
                       className='box'
@@ -99,7 +103,7 @@ export default function hairZigZag() {
                   </p>
                   <a
                     className='btn rounded-lg text-white font-semibold bg-emerald-400 hover:bg-white shadow hover:text-emerald-400 hover:border-violet-300'
-                    href='#0'
+                    href='/hair/services'
                   >
                     <motion.div
                       className='box'
