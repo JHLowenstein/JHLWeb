@@ -3,6 +3,7 @@ import HeroLogo from '@/public/images/favicon.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
+import BG from '@/public/images/hbg1.png'
 import Hair from '@/public/images/hm4.png'
 import Fur from '@/public/images/fm1.png'
 import Leather from '@/public/images/lm2.png'
@@ -10,7 +11,23 @@ import Link from 'next/link'
 
 export default function HeroHome() {
   return (
-    <section>
+    <section className='relative'>
+      {/* Background image */}
+      <div className='absolute inset-0'>
+        <Image
+          className='w-full h-full object-cover '
+          src={BG}
+          width={1440}
+          height={394}
+          priority
+          alt='About'
+          style={{ zIndex: '-10' }}
+        />
+        <div
+          className='absolute inset-0 bg-gray-900 opacity-75'
+          aria-hidden='true'
+        ></div>
+      </div>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative mb-10'>
         {/* Hero content */}
         <section className='relative'>
@@ -64,7 +81,7 @@ export default function HeroHome() {
             </div>
           </div>
         </section>
-        <section>
+        <section className='pb-40'>
           <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
             <div className=''>
               {/*  */}

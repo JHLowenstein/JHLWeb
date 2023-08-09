@@ -9,7 +9,8 @@ export const metadata = {
 
 import Hero from '@/components/hero-service'
 
-import ServiceContent from '@/components/hair-serv-blocks'
+import SVC1 from '@/components/hair-serv-blocks'
+import SVC2 from '@/components/service-zigZag'
 import Contact from '@/components/cta-contact'
 import Images from '@/components/hair-service-images'
 
@@ -25,7 +26,8 @@ export default function Hair() {
         quantity={200}
       />
       {/* <Feature /> */}
-      <ServiceContent />
+      <SVC1 />
+      <SVC2 />
       <Contact />
     </section>
   )

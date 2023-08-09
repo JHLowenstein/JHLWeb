@@ -24,12 +24,30 @@ export default function Tabs() {
   return (
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
-        <div className='py-12 '>
+        <div className=' my-40 md:my-20 md:pt-40  '>
           {/* Section header */}
-          {/* <div className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
-            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Integrated workflow designed for product teams</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
-          </div> */}
+          <div className='max-w-3xl mx-auto text-center pb-12' data-aos-id-tabs>
+            <h2
+              className='h2 mb-4'
+              data-aos='fade-up'
+              data-aos-anchor='[data-aos-id-tabs]'
+            >
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                BRIGHT BOLD UNIQUE
+              </span>{' '}
+              <br />
+              <span className='text-pink-300'>HAIR PRODUCTS</span>
+            </h2>
+            {/* <p
+              className='text-xl text-gray-400'
+              data-aos='fade-up'
+              data-aos-delay='200'
+              data-aos-anchor='[data-aos-id-tabs]'
+            >
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit laborum — semper quis lectus nulla.
+            </p> */}
+          </div>
 
           {/* Section content */}
           <div>

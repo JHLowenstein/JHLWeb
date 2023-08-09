@@ -10,7 +10,7 @@ export const metadata = {
 import Hero from '@/components/hero-hair-prod'
 
 import ProdTabs from '@/components/hair-prods-tabs'
-import FeaturesHome from '@/components/features'
+import Mosaic from '@/components/hair-prod-mosaic'
 import Tabs from '@/components/tabs'
 import Target from '@/components/home-target'
 import Newsletter from '@/components/newsletter'
@@ -20,6 +20,7 @@ export default function Hair() {
   return (
     <section>
       <Hero />
+      <Mosaic />
       <Particles
         className='absolute inset-0 -z-10 animate-fade-in'
         quantity={200}

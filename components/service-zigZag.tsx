@@ -9,18 +9,10 @@ import Color1897 from '@/public/images/Color1897.png'
 
 export default function hairZigZag() {
   return (
-    <section className='mt-40'>
+    <section className='mt-10'>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         {/* Section header */}
-        <div className='max-w-3xl mx-auto text-center pb-6'>
-          <h1 className='h2 mb-4'>
-            PERFECTING THE{' '}
-            <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-              ART
-            </span>{' '}
-            OF HAIR COLOR FORMULATIONS
-          </h1>
-        </div>
+
         <div className='py-12 md:pt-6 md:pb-20'>
           {/* Items */}
           <div className='grid gap-20'>
@@ -45,31 +37,21 @@ export default function hairZigZag() {
                 data-aos='fade-right'
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                  <h3 className='h3 mb-3 '>DYE INTERMEDIATES</h3>
+                  <h3 className='h3 mb-3 '>
+                    A Commitment to Service, Quality and Value
+                  </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    Dye Intermediates for permanent hair color are available,
-                    along with specially formulated bases and developers. The
-                    base materials for cream and liquid formulations are
-                    designed for maximum color deposition along with superior
-                    conditioning. Dyestuff and base materials are also available
-                    for semi-permanent and specialty systems.
+                    JHL HAS DEDICATED ITSELF to the individual needs of its
+                    customers—from multi-national, world-renowned corporations
+                    to small, privately held companies. Attention to detail,
+                    direct and immediate access to our technical and customer
+                    support personnel and the JHL commitment to personalized
+                    service assure you of trend setting, quality dyestuffs on
+                    all your products. Quicker turn around, accurate responses
+                    to your needs, and “on-time” deliveries allow you to bring
+                    your products to market sooner and gain the competitive edge
+                    you need to compete in today’s fast-paced environment.
                   </p>
-                  <a
-                    className='btn rounded-xl text-white font-semibold bg-pink-400 hover:bg-white shadow hover:text-pink-400 hover:border-violet-300'
-                    href='/hair/products'
-                  >
-                    <motion.div
-                      className='box'
-                      whileHover={{ scale: 1.1 }}
-                      transition={{
-                        type: 'spring',
-                        stiffness: 400,
-                        damping: 10,
-                      }}
-                    >
-                      PRODUCTS
-                    </motion.div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -95,28 +77,23 @@ export default function hairZigZag() {
                 data-aos='fade-left'
               >
                 <div className='md:pl-4 lg:pl-12 xl:pl-16'>
-                  <h3 className='h3 mb-3'>RAW MATERIALS</h3>
+                  <h3 className='h3 mb-3'>
+                    Helping to keep you at the leading edge
+                  </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    JHL provides a complete line of raw materials for the hair
-                    color manufacturer. Our technical staff is well versed in
-                    all phases of the hair color formulator’s requirements.
+                    OUR EXPERT CHEMISTS AND TECHNICAL STAFF, from around the
+                    world, respond quickly and accurately to provide formulation
+                    assistance, new color development, consultation, product
+                    line enhancement or help in solving complex dyeing issues
+                    for special applications. We’ll work with you every step of
+                    the way, from color development through product and delivery
+                    to ensure the ultimate in product integrity and customer
+                    satisfaction. Our laboratory facilities are available to you
+                    and your staff to test formulations or to work out a full
+                    pilot program. No matter what the situation, we are totally
+                    prepared to tailor solutions to our customers’ individual
+                    needs.
                   </p>
-                  <a
-                    className='btn rounded-lg text-white font-semibold bg-emerald-400 hover:bg-white shadow hover:text-emerald-400 hover:border-violet-300'
-                    href='/hair/services'
-                  >
-                    <motion.div
-                      className='box'
-                      whileHover={{ scale: 1.1 }}
-                      transition={{
-                        type: 'spring',
-                        stiffness: 400,
-                        damping: 10,
-                      }}
-                    >
-                      SERVICES
-                    </motion.div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -142,29 +119,18 @@ export default function hairZigZag() {
                 data-aos='fade-right'
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                  <h3 className='h3 mb-3'>100+ YEARS IN COLOR </h3>
+                  <h3 className='h3 mb-3'>
+                    Specialized Services For Hair Formulators{' '}
+                  </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}
-                    With over 100 years of experience in the chemistry of fur
-                    dyeing and processing, JHL is the world leader in HAIR color
-                    technology.
+                    IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT
+                    provided to our customers, JHL hair color specialists and
+                    formulators also provide valuable insights into navigating
+                    rigorous regulatory issues, custom dye synthesis, and
+                    proprietary color formulation collaborations exclusively for
+                    your company.
                   </p>
-                  <a
-                    className='btn rounded-xl text-white font-semibold bg-violet-400 hover:bg-white shadow hover:text-violet-400 hover:border-violet-300'
-                    href='#0'
-                  >
-                    <motion.div
-                      className='box'
-                      whileHover={{ scale: 1.1 }}
-                      transition={{
-                        type: 'spring',
-                        stiffness: 400,
-                        damping: 10,
-                      }}
-                    >
-                      COMPANY
-                    </motion.div>
-                  </a>
                 </div>
               </div>
             </div>
