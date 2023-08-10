@@ -13,8 +13,9 @@ export default function Timeline() {
               to life
             </h2>
             <p className='text-xl text-gray-400'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Through a combination of strategic decisions, technological
+              advancements, and a commitment to quality, JHL has effectively
+              become the top leader of Color Technology.
             </p>
           </div>
 

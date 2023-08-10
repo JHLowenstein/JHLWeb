@@ -3,10 +3,12 @@ import { SetStateAction, useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Dropdown from '@/components/utils/dropdown'
-import MobileMenu from './mobile-menu'
+import MobileMenu from './leather-mobile-menu'
 import Logo from '@/public/images/jhlLogo.png'
 
-export default function Header() {
+import React from 'react'
+
+const leatherHeader: React.FC = ({}) => {
   const [sticky, setSticky] = useState(false)
   const handleStickyNavbar = () => {
     if (window.scrollY >= 80) {
@@ -55,104 +57,35 @@ export default function Header() {
           <nav className='hidden md:flex md:grow flex-1 justify-center'>
             {/* Desktop menu links */}
             <ul className='flex grow text-white text-semibold justify-end flex-wrap items-center'>
-              <Dropdown
-                title='HAIR'
-                fontStyles='text-white font-semibold hover:text-pink-300 px-4 py-2 flex items-center transition duration-150 ease-in-out'
-                svgStyles='w-3 h-3 fill-current text-pink-300 cursor-pointer ml-1 shrink-0'
-              >
-                {/* 2nd level: hover */}
-                <li>
-                  <Link
-                    href='/hair'
-                    className='font-semibold text-sm  hover:text-pink-300 flex py-2 px-4 leading-tight'
-                  >
-                    HAIR
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='/'
-                    className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
-                  >
-                    PRODUCTS
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='/'
-                    className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
-                  >
-                    SERVICES
-                  </Link>
-                </li>
-              </Dropdown>
-              {/* 1st level: hover */}
-              <Dropdown
-                title='FUR'
-                fontStyles='text-white font-semibold hover:text-emerald-300 px-4 py-2 flex items-center transition duration-150 ease-in-out'
-                svgStyles='w-3 h-3 fill-current text-emerald-300 cursor-pointer ml-1 shrink-0'
-              >
-                {/* 2nd level: hover */}
-                <li>
-                  <Link
-                    href='/fur'
-                    className='font-semibold text-md  hover:text-pink-400 flex py-2 px-4 leading-tight'
-                  >
-                    FUR
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='/'
-                    className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
-                  >
-                    PRODUCTS
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='/'
-                    className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
-                  >
-                    SERVICES
-                  </Link>
-                </li>
-              </Dropdown>
-              {/* 1st level: hover */}
-              <Dropdown
-                title='LEATHER'
-                fontStyles='text-white font-semibold hover:text-violet-300 px-4 py-2 flex items-center transition duration-150 ease-in-out'
-                svgStyles='w-3 h-3 fill-current text-violet-300 cursor-pointer ml-1 shrink-0'
-              >
-                {/* 2nd level: hover */}
-                <li>
-                  <Link
-                    href='/leather'
-                    className='font-semibold text-md  hover:text-pink-300 flex py-2 px-4 leading-tight'
-                  >
-                    LEATHER
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='/'
-                    className='font-semibold text-md  hover:text-emerald-300 flex py-2 px-4 leading-tight'
-                  >
-                    PRODUCTS
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href='/'
-                    className='font-semibold text-md  hover:text-violet-300 flex py-2 px-4 leading-tight'
-                  >
-                    SERVICES
-                  </Link>
-                </li>
-              </Dropdown>
+              {/* 2nd level: hover */}
               <li>
                 <Link
-                  href='/company'
+                  href='/leather'
+                  className='font-semibold text-md  hover:text-pink-300 flex py-2 px-4 leading-tight'
+                >
+                  leather
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/leather/products'
+                  className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
+                >
+                  PRODUCTS
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/leather/services'
+                  className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
+                >
+                  SERVICES
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href='/leather/company'
                   className='font-semibold hover:text-sky-200 px-4 py-2 flex items-center transition duration-150 ease-in-out'
                 >
                   COMPANY
@@ -195,3 +128,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default leatherHeader

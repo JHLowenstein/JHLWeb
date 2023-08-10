@@ -39,11 +39,12 @@ export default function HeroAbout() {
                   data-aos='fade-up'
                   data-aos-delay='200'
                 >
-                  JHL has remained the leader of{' '}
+                  The journey of how JHL emerged as a leader in color technology
+                  since its establishment in 1897 is a testament to dedication,
+                  innovation, and continuous pursuit of{' '}
                   <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                    COLOR TECHNOLOGY
+                    COLOR
                   </span>{' '}
-                  since 1897
                 </p>
                 <div
                   className='relative inline-flex flex-col mb-2 md:mb-40'

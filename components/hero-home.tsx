@@ -3,10 +3,10 @@ import HeroLogo from '@/public/images/favicon.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
-import BG from '@/public/images/hbg1.png'
+import BG from '@/public/images/hbg2.png'
 import Hair from '@/public/images/hair-hero.png'
 import Fur from '@/public/images/fur-hero.png'
-import Leather from '@/public/images/lm2.png'
+import Leather from '@/public/images/leather-hero.png'
 import Link from 'next/link'
 
 export default function HeroHome() {

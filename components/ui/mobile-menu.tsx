@@ -74,16 +74,16 @@ export default function MobileMenu() {
             <ul className='pl-4'>
               <li>
                 <Link
-                  href='/contact'
+                  href='/hair'
                   className='text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2'
                   onClick={() => setMobileNavOpen(false)}
                 >
-                  HAIR MAIN
+                  HAIR
                 </Link>
               </li>
               <li>
                 <Link
-                  href='/help/frequently-asked-questions'
+                  href='/hair/products'
                   className='text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2'
                   onClick={() => setMobileNavOpen(false)}
                 >
@@ -92,7 +92,7 @@ export default function MobileMenu() {
               </li>
               <li>
                 <Link
-                  href='/404'
+                  href='/hair/services'
                   className='text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2'
                   onClick={() => setMobileNavOpen(false)}
                 >

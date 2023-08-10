@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 import FeatImage01 from '@/public/images/hpm1.png'
 import FeatImage02 from '@/public/images/hm5.png'
-import Color1897 from '@/public/images/Color1897.png'
+import Color from '@/public/images/smz3.png'
 
 export default function hairZigZag() {
   return (
@@ -112,7 +112,7 @@ export default function hairZigZag() {
               >
                 <Image
                   className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                  src={Color1897}
+                  src={Color}
                   width={540}
                   height={405}
                   alt='Color since 1897'

@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
-import FeatImage01 from '@/public/images/hm4.png'
-import FeatImage02 from '@/public/images/fm1.png'
-import FeatImage03 from '@/public/images/lm2.png'
+import FeatImage01 from '@/public/images/hair-hero.png'
+import FeatImage02 from '@/public/images/fur-hero.png'
+import FeatImage03 from '@/public/images/leather-hero.png'
 
 export default function Zigzag() {
   return (
