@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-import TeamMosaic01 from '@/public/images/lab.png'
-import TeamMosaic02 from '@/public/images/hm5.png'
-import TeamMosaic03 from '@/public/images/hm.png'
-import TeamMosaic04 from '@/public/images/hm2.png'
+import TeamMosaic01 from '@/public/images/smc1.png'
+import TeamMosaic02 from '@/public/images/smc1.png'
+import TeamMosaic03 from '@/public/images/smc1.png'
+import TeamMosaic04 from '@/public/images/smc1.png'
 
 export default function TeamImages() {
   return (

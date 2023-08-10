@@ -16,8 +16,8 @@ export default function Fur() {
       <Hero />
       <Stats />
       <Zigzag />
-      <Blocks />
-      <CaseStudies />
+      {/* <Blocks /> */}
+      {/* <CaseStudies /> */}
       <Cta />
     </>
   )

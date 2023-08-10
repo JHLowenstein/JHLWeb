@@ -41,16 +41,19 @@ export default function hairZigZag() {
                     A Commitment to Service, Quality and Value
                   </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    JHL HAS DEDICATED ITSELF to the individual needs of its
-                    customers—from multi-national, world-renowned corporations
-                    to small, privately held companies. Attention to detail,
-                    direct and immediate access to our technical and customer
-                    support personnel and the JHL commitment to personalized
-                    service assure you of trend setting, quality dyestuffs on
-                    all your products. Quicker turn around, accurate responses
-                    to your needs, and “on-time” deliveries allow you to bring
-                    your products to market sooner and gain the competitive edge
-                    you need to compete in today’s fast-paced environment.
+                    <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                      JHL HAS DEDICATED ITSELF
+                    </span>{' '}
+                    to the individual needs of its customers—from
+                    multi-national, world-renowned corporations to small,
+                    privately held companies. Attention to detail, direct and
+                    immediate access to our technical and customer support
+                    personnel and the JHL commitment to personalized service
+                    assure you of trend setting, quality dyestuffs on all your
+                    products. Quicker turn around, accurate responses to your
+                    needs, and “on-time” deliveries allow you to bring your
+                    products to market sooner and gain the competitive edge you
+                    need to compete in today’s fast-paced environment.
                   </p>
                 </div>
               </div>
@@ -81,18 +84,20 @@ export default function hairZigZag() {
                     Helping to keep you at the leading edge
                   </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    OUR EXPERT CHEMISTS AND TECHNICAL STAFF, from around the
-                    world, respond quickly and accurately to provide formulation
-                    assistance, new color development, consultation, product
-                    line enhancement or help in solving complex dyeing issues
-                    for special applications. We’ll work with you every step of
-                    the way, from color development through product and delivery
-                    to ensure the ultimate in product integrity and customer
-                    satisfaction. Our laboratory facilities are available to you
-                    and your staff to test formulations or to work out a full
-                    pilot program. No matter what the situation, we are totally
-                    prepared to tailor solutions to our customers’ individual
-                    needs.
+                    <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                      OUR EXPERT CHEMISTS AND TECHNICAL STAFF,
+                    </span>{' '}
+                    from around the world, respond quickly and accurately to
+                    provide formulation assistance, new color development,
+                    consultation, product line enhancement or help in solving
+                    complex dyeing issues for special applications. We’ll work
+                    with you every step of the way, from color development
+                    through product and delivery to ensure the ultimate in
+                    product integrity and customer satisfaction. Our laboratory
+                    facilities are available to you and your staff to test
+                    formulations or to work out a full pilot program. No matter
+                    what the situation, we are totally prepared to tailor
+                    solutions to our customers’ individual needs.
                   </p>
                 </div>
               </div>
@@ -124,7 +129,9 @@ export default function hairZigZag() {
                   </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}
-                    IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT
+                    <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                      IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT
+                    </span>{' '}
                     provided to our customers, JHL hair color specialists and
                     formulators also provide valuable insights into navigating
                     rigorous regulatory issues, custom dye synthesis, and

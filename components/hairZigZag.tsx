@@ -151,7 +151,7 @@ export default function hairZigZag() {
                   </p>
                   <a
                     className='btn rounded-xl text-white font-semibold bg-violet-400 hover:bg-white shadow hover:text-violet-400 hover:border-violet-300'
-                    href='#0'
+                    href='/hair/company'
                   >
                     <motion.div
                       className='box'

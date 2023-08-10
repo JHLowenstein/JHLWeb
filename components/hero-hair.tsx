@@ -1,13 +1,13 @@
 import HeroLogo from '@/public/images/favicon.png'
 import Image from 'next/image'
-import Hair from '@/public/images/hm4.png'
+import Hair from '@/public/images/hair-hero.png'
 import Fur from '@/public/images/fm.png'
 import Leather from '@/public/images/lm.png'
 import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className='relative'>
+    <section className='relative '>
       {/* Background image */}
       <div className='absolute inset-0'>
         <Image
@@ -51,8 +51,9 @@ export default function Hero() {
                   </span>{' '}
                   is born in our color labs{' '}
                 </p>
+                {/* image */}
                 <div
-                  className='relative inline-flex flex-col mb-2 md:mb-40'
+                  className='relative inline-flex flex-col mb-2 md:mb-60'
                   data-aos='fade-up'
                 >
                   <Image

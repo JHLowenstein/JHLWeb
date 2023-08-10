@@ -4,8 +4,8 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 import BG from '@/public/images/hbg1.png'
-import Hair from '@/public/images/hm4.png'
-import Fur from '@/public/images/fm1.png'
+import Hair from '@/public/images/hair-hero.png'
+import Fur from '@/public/images/fur-hero.png'
 import Leather from '@/public/images/lm2.png'
 import Link from 'next/link'
 
@@ -35,9 +35,11 @@ export default function HeroHome() {
             <div className='pt-32 pb-12 md:pt-40 md:pb-10'>
               <div className='max-w-3xl mx-auto text-center'>
                 <h1 className='h1 mb-4' data-aos='fade-up' data-aos-delay='200'>
+                  LIVE{' '}
                   <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                    LIVE LIFE IN COLOR
+                    LIFE
                   </span>{' '}
+                  IN COLOR
                 </h1>
                 <p
                   className='text-xl font-semibold text-white mt-5 mb-8'
