@@ -36,7 +36,7 @@ export default function Tabs() {
                 BRIGHT BOLD UNIQUE
               </span>{' '}
               <br />
-              <span className='text-pink-300'>HAIR PRODUCTS</span>
+              <span className=''>LEATHER PRODUCTS</span>
             </h2>
             {/* <p
               className='text-xl text-gray-400'
@@ -64,15 +64,8 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(1)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-pink-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-pink-300 group-hover:text-pink-400 transition-colors duration-150 ease-in-out'>
-                  Lowenol Surfactants
+                  Lowatan Retanning Agents, Syntans, & Auxiliaries
                 </span>
               </button>
               <button
@@ -81,15 +74,8 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(2)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-emerald-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-emerald-300 group-hover:text-emerald-400 transition-colors duration-150 ease-in-out'>
-                  Bleaching Products
+                  Lowenol Fatliquors
                 </span>
               </button>
               <button
@@ -98,83 +84,8 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(3)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-violet-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-violet-400 group-hover:text-violet-200 transition-colors duration-150 ease-in-out'>
-                  Stabilizing / Chelating Agents
-                </span>
-              </button>
-              <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 4 && 'opacity-50'
-                }`}
-                onClick={() => setTab(4)}
-              >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-sky-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
-                <span className='text-sky-300 group-hover:text-sky-400 transition-colors duration-150 ease-in-out'>
-                  Protein Derivatives / Conditioner
-                </span>
-              </button>
-              <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 5 && 'opacity-50'
-                }`}
-                onClick={() => setTab(5)}
-              >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-amber-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
-                <span className='text-amber-300 group-hover:text-amber-400 transition-colors duration-150 ease-in-out'>
-                  Colors
-                </span>
-              </button>
-              <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 6 && 'opacity-50'
-                }`}
-                onClick={() => setTab(6)}
-              >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-pink-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
-                <span className='text-pink-300 group-hover:text-pink-400 transition-colors duration-150 ease-in-out'>
-                  Shining Colors
-                </span>
-              </button>
-              <button
-                className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${
-                  tab !== 7 && 'opacity-50'
-                }`}
-                onClick={() => setTab(7)}
-              >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-emerald-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
-                <span className='text-emerald-300 group-hover:text-emerald-700 transition-colors duration-150 ease-in-out'>
-                  Viscosity Builders
+                  Lowapel Dyes
                 </span>
               </button>
             </div>
@@ -186,7 +97,7 @@ export default function Tabs() {
                 data-aos='fade-up'
                 ref={tabs}
               >
-                {/* Lowenol Surfactants*/}
+                {/*  Lowatan Retanning Agents, Syntans, & Auxiliaries*/}
                 <Transition
                   show={tab === 1}
                   className='w-full'
@@ -209,139 +120,130 @@ export default function Tabs() {
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
-                      <h3 className='h3 mb-5'>Lowenol Surfactants</h3>
-                      <p className='text-snow-300  my-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL C-9685:
+                      <h3 className='h3 '>Lowenol Fatliquors</h3>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL AMO:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Nonionic foam stabilizing/dispersing agent/viscosity
-                          controlling agent for shampoos and hair colors.
+                          alkaline based neatsfoot
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL S-216X:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BMO:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Mildly cationic dye leveling and viscosity controlling
-                          agent for oxidation hair color systems (soya based).
+                          bisulfited marine oil - highly concentrated
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL 1985A, LOWENOL 1985B, LOWENOL T-163, LOWENOL
-                          T-163A:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BSN:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Weakly cationic surfactant for semi-permanent hair
-                          color systems.
+                          non-yellowing, non-oxydizing oil for whites
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL 6559:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL DMS:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Nonionic emulsifying agent used to prepare high,
-                          medium, and low-viscosity cream developers and as a
-                          base for various hair-care creams.
+                          sulphated/sulphited marine oil
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL COPOLYMER 725:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL EML:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Cationic polyquaternium surfactant used in
-                          semi-permanent liquid hair color system.
+                          general use synthetic oil
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL COPOLYMER 1097:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL NZB:
+                        </span>{' '}
+                        <span className='font-semibold '>sulfated lanolin</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL WP:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Cationic polyquarternium surfactant used in
-                          semi-permanent cream hair color system.
+                          waterproofing fatliquor
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL EMULSION 80:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL SO-67:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Emulsifying agent/opacifying agent for cream oxidation
-                          hair color system.
+                          synthetic neatsfoot solvent fatliquor
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL T-163:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL CAT:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Weak cationic surfactant for semi-permanent hair color
-                          system.
+                          cationic topping oil
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL SOLVENT 4996:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL GHB:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Nonionic solvent system specially designed for
-                          semi-permanent hair color system.
+                          natural and synthetic oil
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL EMULSION LAO:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL SOFT MSW:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Emulsifying agent that masks Ammonia malodor with
-                          consistency ideal for professional market.
+                          sulfated oil for very soft leathers
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL EMULSION LAO-NT:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL TRS:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Emulsifying agent that masks Ammonia malodor with
-                          consistency ideal for retail market.
+                          synthetic & natural sulphited/sulphated oil
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          LOWENOL EMULSION PEARLESCENT:
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BMD:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Emulsifying agent that gives finished cream hair color
-                          and cream developer pearlescent appearance.
+                          cationic wax and paraffins
                         </span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-pink-400'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BKD:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          cationic stuffing wax for pull-up
+                        </span>
                       </p>
-                      {/* <a
-                        className='btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6'
-                        href='#0'
-                      >
-                        <span className='text-sm'>Learn more</span>
-                        <svg
-                          className='w-3 h-3 fill-current text-purple-400 shrink-0 ml-2'
-                          viewBox='0 0 12 12'
-                          xmlns='http://www.w3.org/2000/svg'
-                        >
-                          <path d='M6 5H0v2h6v4l6-5-6-5z' />
-                        </svg>
-                      </a> */}
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL LFC:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          high-quality, low-fog fatliquor
+                        </span>
+                      </p>
                     </div>
                   </article>
                 </Transition>
 
-                {/* Bleaching Products */}
+                {/* Lowenol Fatliquors */}
                 <Transition
                   show={tab === 2}
                   className='w-full'
@@ -386,7 +288,7 @@ export default function Tabs() {
                   </article>
                 </Transition>
 
-                {/* Item 3 */}
+                {/* Lowapel Dyes */}
                 <Transition
                   show={tab === 3}
                   className='w-full'
@@ -409,287 +311,162 @@ export default function Tabs() {
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
-                      <h3 className='h3 mb-5'>Stabilizing/ Cheating Agents</h3>
-                      <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-violet-400'>
-                          KELENES:
+                      <h3 className='h3'>Lowapel</h3>
+                      <p className='text-snow-300  my-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Amino acid based chelating agents for use in cosmetic
-                          products (shampoos, bleaches, coloring, lotions,
-                          creams).
-                        </span>
+                        <span className='font-semibold '>Black JET 160 %</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-violet-400'>
-                          LOWENOL STABILIZER L-536:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Color additive used in hair color system to prevent
-                          undesirable surface oxidation, used mainly in light
-                          shades.
-                        </span>
+                        <span className='font-semibold '>Black EX-1</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-violet-400'>
-                          LOWENOL STABILIZER D-552:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Color additive used in hair color system to prevent
-                          undesirable surface oxidation, used mainly in dark
-                          shades.
-                        </span>
-                      </p>
-                    </div>
-                  </article>
-                </Transition>
-
-                {/* Item 4 */}
-                <Transition
-                  show={tab === 4}
-                  className='w-full'
-                  enter='transition ease-in-out duration-500 transform order-first'
-                  enterFrom='opacity-0 scale-98'
-                  enterTo='opacity-100 scale-100'
-                  leave='transition ease-out duration-300 transform absolute'
-                  leaveFrom='opacity-100 scale-100'
-                  leaveTo='opacity-0 scale-98'
-                  beforeEnter={() => heightFix()}
-                >
-                  <article className='relative max-w-md mx-auto md:max-w-none'>
-                    <figure className='md:absolute md:inset-y-0 md:left-0 md:w-1/2'>
-                      <Image
-                        className='w-full h-full object-cover'
-                        src={Chemistry}
-                        width={516}
-                        height={387}
-                        alt='Tabs 02'
-                      />
-                    </figure>
-                    <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto'>
-                      <h3 className='h3 mb-5'>
-                        Protein Derivatives/ Conditioners
-                      </h3>
-                      <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-sky-400'>
-                          LOWENOL HWP:
-                        </span>{' '}
-                        <span className='font-semibold '>
-                          Hydrolyzed protein (liquid) for shampoo and hair color
-                          systems.
-                        </span>
+                        <span className='font-semibold '>Black JP</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-sky-400'>
-                          LOWENOL CONDITIONER PWW:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Conditioning agent for hair color systems.
-                        </span>
+                        <span className='font-semibold '>Black Magic</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-sky-400'>
-                          LOWENOL COPOLYMER 725:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Cationic polyquaternium conditioning agent, and
-                          viscosity builder for semi-permanent liquid hair color
-                          system.
-                        </span>
+                        <span className='font-semibold '>Black SSb</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-sky-400'>
-                          LOWENOL COPOLYMER 1097:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Cationic polyquaternium conditioning agent, and
-                          viscosity builder for semi-permanent cream hair color
-                          system.
-                        </span>
-                      </p>
-                    </div>
-                  </article>
-                </Transition>
-
-                {/* Item 5 */}
-                <Transition
-                  show={tab === 5}
-                  className='w-full'
-                  enter='transition ease-in-out duration-500 transform order-first'
-                  enterFrom='opacity-0 scale-98'
-                  enterTo='opacity-100 scale-100'
-                  leave='transition ease-out duration-300 transform absolute'
-                  leaveFrom='opacity-100 scale-100'
-                  leaveTo='opacity-0 scale-98'
-                  beforeEnter={() => heightFix()}
-                >
-                  <article className='relative max-w-md mx-auto md:max-w-none'>
-                    <figure className='md:absolute md:inset-y-0 md:right-0 md:w-1/2'>
-                      <Image
-                        className='w-full h-full object-cover'
-                        src={Chemistry}
-                        width={516}
-                        height={387}
-                        alt='Tabs 01'
-                      />
-                    </figure>
-                    <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
-                      <h3 className='h3 mb-5'>Colors</h3>
-                      <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          LOWALANS:
-                        </span>{' '}
-                        <span className='font-semibold '>
-                          Anionic dyes for semi-permanent and temporary color
-                          systems.
-                        </span>
+                        <span className='font-semibold '>Black NT 250%</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          LOWACRYLS:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Cationic dyes for semi-permanent and temporary color
-                          systems.
-                        </span>
+                        <span className='font-semibold '>Brown HH 150%</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          LOWADENES:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Disperse dyes for semi-permanent and temporary color
-                          systems.
-                        </span>
+                        <span className='font-semibold '>Brown NGB</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          LOWASOLS:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Dyes specially designed for semi-permanent and
-                          temporary colors.
-                        </span>
+                        <span className='font-semibold '>Brown BNR</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          FD&C, EXT. D&C, D&C:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          U.S. certified colors for food, drug and cosmetic
-                          applications.
-                        </span>
+                        <span className='font-semibold '>Brown MFR</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          HC COLORS:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Alkyl/hydroxyalkyl substituted aromatics for
-                          semi-permanent hair color systems.
-                        </span>
-                      </p>
-                      <h6 className='h6 font-bold mt-3'>
-                        Oxidation Hair Colors
-                      </h6>
-                      <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-amber-400'>
-                          RODOLS:
-                        </span>{' '}
-                        <span className='font-semibold '>
-                          Intermediates for use in oxidation color systems.
-                        </span>
-                      </p>
-                    </div>
-                  </article>
-                </Transition>
-
-                {/* Item 6 */}
-                <Transition
-                  show={tab === 6}
-                  className='w-full'
-                  enter='transition ease-in-out duration-500 transform order-first'
-                  enterFrom='opacity-0 scale-98'
-                  enterTo='opacity-100 scale-100'
-                  leave='transition ease-out duration-300 transform absolute'
-                  leaveFrom='opacity-100 scale-100'
-                  leaveTo='opacity-0 scale-98'
-                  beforeEnter={() => heightFix()}
-                >
-                  <article className='relative max-w-md mx-auto md:max-w-none'>
-                    <figure className='md:absolute md:inset-y-0 md:left-0 md:w-1/2'>
-                      <Image
-                        className='w-full h-full object-cover'
-                        src={Chemistry}
-                        width={516}
-                        height={387}
-                        alt='Tabs 02'
-                      />
-                    </figure>
-                    <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto'>
-                      <h3 className='h3 mb-5'>Shining Colors</h3>
-                      <p className='text-snow-400  mb-3'>
-                        <span className='font-bold text-pink-400'>
-                          BRIGHT SEMI-PERMANENT CREAM HAIR COLORS
-                        </span>{' '}
-                        <span className='font-semibold '></span>
-                      </p>
-                    </div>
-                  </article>
-                </Transition>
-
-                {/* Item 7 */}
-                <Transition
-                  show={tab === 7}
-                  className='w-full'
-                  enter='transition ease-in-out duration-500 transform order-first'
-                  enterFrom='opacity-0 scale-98'
-                  enterTo='opacity-100 scale-100'
-                  leave='transition ease-out duration-300 transform absolute'
-                  leaveFrom='opacity-100 scale-100'
-                  leaveTo='opacity-0 scale-98'
-                  beforeEnter={() => heightFix()}
-                >
-                  <article className='relative max-w-md mx-auto md:max-w-none'>
-                    <figure className='md:absolute md:inset-y-0 md:right-0 md:w-1/2'>
-                      <Image
-                        className='w-full h-full object-cover'
-                        src={Chemistry}
-                        width={516}
-                        height={387}
-                        alt='Tabs 01'
-                      />
-                    </figure>
-                    <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
-                      <h3 className='h3 mb-5'>Viscosity Builders</h3>
-                      <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-emerald-400'>
-                          CELLOW 940:
-                        </span>{' '}
-                        <span className='font-semibold '>
-                          Cellulose based polymer for semi-permanent hair colors
-                          and shampoos.
-                        </span>
+                        <span className='font-semibold '>Brown CB</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-emerald-400'>
-                          LOWENOL COPOLYMER 725:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Cationic polyquaternium
-                          surfactant/viscosity-increasing agent for
-                          semi-permanent liquid hair color system.
-                        </span>
+                        <span className='font-semibold '>Brown CR</span>
                       </p>
                       <p className='text-snow-300  mb-3'>
-                        <span className='font-bold text-emerald-400'>
-                          LOWENOL COPOLYMER 1097:
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
                         </span>{' '}
-                        <span className='font-semibold '>
-                          Cationic polyquaternium
-                          surfactant/viscosity-increasing agent for
-                          semi-permanent liquid cream color system.
-                        </span>
+                        <span className='font-semibold '>Brown NT</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Brown NR</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Brown B2C</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Brown SSN</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Olive Brown N</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Yellow Brown GS</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Yellow GG</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Brilliant Red 2B</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Red R</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Blue BB</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Blue 2RN</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Dark Green NH</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Beige ET</span>
+                      </p>
+                      <p className='text-snow-300  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>Grey GLN</span>
                       </p>
                     </div>
                   </article>
