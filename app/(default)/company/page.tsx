@@ -4,25 +4,20 @@ export const metadata = {
 }
 
 import HeroAbout from '@/components/hero-about'
-import TeamImages from '@/components/team-images'
-import Timeline from '@/components/timeline'
+import Timeline from '@/components/hair/hair-timeline'
 import Team from '@/components/team'
-import TestimonialsCarousel from '@/components/testimonials-carousel'
-import Career from '@/components/career'
-import Clients from '@/components/clients'
+import World from '@/components/countries'
+
 import Newsletter from '@/components/newsletter'
 
 export default function Company() {
   return (
     <>
       <HeroAbout />
-      <TeamImages />
+
       <Timeline />
       <Team />
-      <TestimonialsCarousel />
-      <Career />
-      <Clients />
-      <Newsletter />
+      <World />
     </>
   )
 }

@@ -1,12 +1,13 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
+import { motion } from 'framer-motion'
+
 import JHL from '@/public/images/contact-banner.png'
 import Call from '@/public/images/CALL.png'
 import Email from '@/public/images/EMAIL.png'
-import { motion } from 'framer-motion'
-
-import Link from 'next/link'
+import Content from '@/components/contactContent'
 
 export default function Hero() {
   return (
@@ -28,7 +29,7 @@ export default function Hero() {
             aria-hidden='true'
           ></div>
         </div>
-        <div className='max-w-6xl mx-auto px-4 sm:px-6 relative mb-10'>
+        <div className='max-w-6xl mx-auto px-4 sm:px-6 relative '>
           {/* Hero content */}
           <section className='relative'>
             <div className='max-w-6xl mx-auto px-4 sm:px-6'>
@@ -89,7 +90,7 @@ export default function Hero() {
               </div>
             </div>
           </section>
-          <section className='pb-40'>
+          <section className=''>
             <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
               <div className=''>
                 {/*  */}
@@ -154,70 +155,11 @@ export default function Hero() {
                       </Link>
                     </motion.div>
                   </div>
-                  {/* <div
-                   className='flex flex-col h-full p-6 bg-white-800 rounded-xl'
-                   data-aos='fade-up'
-                 >
-                   <div>
-                     <div className='  mb-4'>
-                       <Image
-                         className='rounded-xl'
-                         src={Hair}
-                         width={300}
-                         height={200}
-                         alt='Testimonial 01'
-                         style={{
-                           margin: 'auto',
-                           pointerEvents: 'none',
-                         }}
-                       />
-                     </div>
-                   </div>
- 
-                   <div data-aos='fade-up' data-aos-delay='400'>
-                     <a
-                       className='btn text-xl text-white font-semibold bg-emerald-300 rounded-xl hover:bg-emerald-400 w-full mb-10 sm:w-auto '
-                       href='/fur'
-                     >
-                       FUR
-                     </a>
-                   </div>
-                 </div> */}
-                  {/* Leather Box */}
-
-                  {/* <div
-                   className='flex flex-col h-full p-6 bg-white-800 rounded-xl'
-                   data-aos='fade-up'
-                 >
-                   <div>
-                     <div className='  mb-4'>
-                       <Image
-                         className='rounded-xl'
-                         src={Hair}
-                         width={300}
-                         height={200}
-                         alt='Testimonial 01'
-                         style={{
-                           margin: 'auto',
-                           pointerEvents: 'none',
-                         }}
-                       />
-                     </div>
-                   </div>
- 
-                   <div data-aos='fade-up' data-aos-delay='400'>
-                     <a
-                       className='btn  text-xl text-white font-semibold bg-violet-300 rounded-xl hover:bg-violet-400 w-full mb-10 sm:w-auto '
-                       href='/leather'
-                     >
-                       LEATHER
-                     </a>
-                   </div>
-                 </div> */}
                 </div>
               </div>
             </div>
           </section>
+          <Content />
         </div>
       </section>
     </>

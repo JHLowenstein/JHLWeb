@@ -7,13 +7,8 @@ export const metadata = {
     'Since 1897, Jos. H. Lowenstein & Sons, Inc. has been providing the world of fashion with brilliant, trend-setting colors for the fur, hair and leather industries all over the world. From a modest paint store in Brooklyn, New York to the technologically driven, quality dyestuff manufacturer we are today, JHL has prided itself on providing its customers with state-of-the-art dye products and impeccable personalized service. April 2003 JHL underwent a formal ISO 9001 audit. We passed with flying colors!',
 }
 
-import Hero from '@/components/hero-hair'
-import HairCard from '@/components/hairMainCard'
-
-import HairZigZag from '@/components/hairZigZag'
-import FeaturesHome from '@/components/features'
-import Tabs from '@/components/tabs'
-import Target from '@/components/home-target'
+import Hero from '@/components/hair/hero-hair'
+import HairZigZag from '@/components/hair/hairZigZag'
 import Newsletter from '@/components/newsletter'
 import Particles from '@/components/particles'
 

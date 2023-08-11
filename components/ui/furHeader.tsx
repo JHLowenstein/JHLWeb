@@ -68,7 +68,7 @@ const furHeader: React.FC = ({}) => {
               </li>
               <li>
                 <Link
-                  href='/fur'
+                  href='/fur/products'
                   className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
                 >
                   PRODUCTS
@@ -76,7 +76,7 @@ const furHeader: React.FC = ({}) => {
               </li>
               <li>
                 <Link
-                  href='/fur'
+                  href='/fur/services'
                   className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
                 >
                   SERVICES
@@ -85,7 +85,7 @@ const furHeader: React.FC = ({}) => {
 
               <li>
                 <Link
-                  href='/fur'
+                  href='/fur/company'
                   className='font-semibold hover:text-sky-200 px-4 py-2 flex items-center transition duration-150 ease-in-out'
                 >
                   COMPANY
@@ -93,7 +93,7 @@ const furHeader: React.FC = ({}) => {
               </li>
               <li>
                 <Link
-                  href='/fur'
+                  href='/fur/contact'
                   className='font-semibold hover:text-amber-200 px-4 py-2 flex items-center transition duration-150 ease-in-out'
                 >
                   CONTACT

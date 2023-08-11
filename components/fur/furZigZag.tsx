@@ -4,10 +4,10 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 import FeatImage01 from '@/public/images/hpm1.png'
-import FeatImage02 from '@/public/images/hm5.png'
+import Raw from '@/public/images/raw-materials.png'
 import Color1897 from '@/public/images/Color1897.png'
 
-export default function hairZigZag() {
+export default function furZigZag() {
   return (
     <section className='mt-40'>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
@@ -18,7 +18,7 @@ export default function hairZigZag() {
             <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
               ART
             </span>{' '}
-            OF HAIR COLOR FORMULATIONS
+            OF FUR COLOR FORMULATIONS
           </h1>
         </div>
         <div className='py-12 md:pt-6 md:pb-20'>
@@ -47,7 +47,7 @@ export default function hairZigZag() {
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                   <h3 className='h3 mb-3 '>DYE INTERMEDIATES</h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    Dye Intermediates for permanent hair color are available,
+                    Dye Intermediates for permanent fur color are available,
                     along with specially formulated bases and developers. The
                     base materials for cream and liquid formulations are
                     designed for maximum color deposition along with superior
@@ -56,7 +56,7 @@ export default function hairZigZag() {
                   </p>
                   <a
                     className='btn rounded-xl text-white font-semibold bg-pink-400 hover:bg-white shadow hover:text-pink-400 hover:border-violet-300'
-                    href='/hair/products'
+                    href='/fur/products'
                   >
                     <motion.div
                       className='box'
@@ -83,7 +83,7 @@ export default function hairZigZag() {
               >
                 <Image
                   className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                  src={FeatImage02}
+                  src={Raw}
                   width={540}
                   height={405}
                   alt='Features 02'
@@ -97,13 +97,13 @@ export default function hairZigZag() {
                 <div className='md:pl-4 lg:pl-12 xl:pl-16'>
                   <h3 className='h3 mb-3'>RAW MATERIALS</h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    JHL provides a complete line of raw materials for the hair
+                    JHL provides a complete line of raw materials for the fur
                     color manufacturer. Our technical staff is well versed in
-                    all phases of the hair color formulator’s requirements.
+                    all phases of the fur color formulator’s requirements.
                   </p>
                   <a
                     className='btn rounded-lg text-white font-semibold bg-emerald-400 hover:bg-white shadow hover:text-emerald-400 hover:border-violet-300'
-                    href='/hair/services'
+                    href='/fur/services'
                   >
                     <motion.div
                       className='box'
@@ -146,12 +146,12 @@ export default function hairZigZag() {
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}
                     With over 100 years of experience in the chemistry of fur
-                    dyeing and processing, JHL is the world leader in HAIR color
+                    dyeing and processing, JHL is the world leader in fur color
                     technology.
                   </p>
                   <a
                     className='btn rounded-xl text-white font-semibold bg-violet-400 hover:bg-white shadow hover:text-violet-400 hover:border-violet-300'
-                    href='/hair/company'
+                    href='/fur/company'
                   >
                     <motion.div
                       className='box'

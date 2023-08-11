@@ -1,7 +1,5 @@
 import Image from 'next/image'
-
-import Images from '@/components/hair-service-images'
-import Chemist from '@/public/images/chemist.png'
+import Cover from '@/public/images/hpc.png'
 
 export default function Hero() {
   return (
@@ -10,7 +8,7 @@ export default function Hero() {
       <div className='absolute inset-0'>
         <Image
           className='w-full h-full object-cover'
-          src={Chemist}
+          src={Cover}
           width={1440}
           height={394}
           priority
@@ -28,11 +26,11 @@ export default function Hero() {
         <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
           <div className='max-w-3xl mx-auto text-center'>
             <h1 className='h1 mb-4' data-aos='fade-up' data-aos-delay='200'>
-              Discover the{' '}
+              Explore the{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                HAIR Services
+                HAIR PRODUCTS
               </span>{' '}
-              offered by the staff at JHL
+              offered at JHL
             </h1>
             <p
               className='text-xl font-semibold text-gray-300 mb-8'

@@ -8,7 +8,7 @@ export default function Blocks() {
             <h3 className='h3 mb-4'>
               Our technical staff is knowledgeable in all phases of the{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                Hair Color Formulator’s
+                FUR Color Formulator’s
               </span>{' '}
               requirements.
             </h3>
@@ -65,13 +65,13 @@ export default function Blocks() {
               </svg>
 
               <h4 className='h4 mb-2'>COMMITMENT</h4>
-              {/* <p className='text-lg font-medium text-gray-300 text-center'>
-                <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
+              <p className='text-lg font-medium text-gray-300 text-center'>
+                {/* <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
                   JHL HAS DEDICATED ITSELF
-                </span>{' '}
-                to the individual needs of its customers—from multi-national,
-                world-renowned corporations to small, privately held companies.
-              </p> */}
+                </span>{' '} */}
+                One of the cornerstones of JHL's success is their unwavering
+                commitment to maintaining high-quality standards.
+              </p>
             </div>
 
             {/* 2nd item */}
@@ -108,14 +108,10 @@ export default function Blocks() {
                 />
               </svg>
               <h4 className='h4 mb-2'>QUALITY</h4>
-              {/* <p className='text-lg font-medium text-gray-300 text-center'>
-                <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
-                  ATTENTION TO DETAIL,
-                </span>{' '}
-                along with instant access to our technical and customer support
-                teams guarantees trendsetting, high-quality dyestuffs for all
-                your products.
-              </p> */}
+              <p className='text-lg font-medium text-gray-300 text-center'>
+                JHL is renowned for delivering color products of unparalleled
+                quality, consistently exceeding industry standards.
+              </p>
             </div>
 
             {/* 3rd item */}
@@ -163,14 +159,10 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className='h4 mb-2'>GLOBAL</h4>
-              {/* <p className='text-lg font-medium text-gray-300 text-center'>
-                <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
-                  OUR EXPERT CHEMISTS AND STAFF,
-                </span>{' '}
-                promptly offer precise assistance with formulations, color
-                innovation, consulting, product enhancement, and solving
-                intricate dyeing challenges.
-              </p> */}
+              <p className='text-lg font-medium text-gray-300 text-center'>
+                Expanding our reach beyond local markets has been instrumental
+                in JHL's rise as leaders in color technology.
+              </p>
             </div>
 
             {/* 4th item */}
@@ -207,16 +199,11 @@ export default function Blocks() {
                 />
               </svg>
 
-              <h4 className='h4 mb-2'>IMMEDIATE</h4>
-              {/* <p className='text-lg font-medium text-gray-300 text-center'>
-                <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
-                  QUICKER TURN AROUND,
-                </span>{' '}
-                accurate responses to your needs, and “on-time” deliveries allow
-                you to bring your products to market sooner and gain the
-                competitive edge you need to compete in today’s fast-paced
-                environment.
-              </p> */}
+              <h4 className='h4 mb-2'>INNOVATION</h4>
+              <p className='text-lg font-medium text-gray-300 text-center'>
+                JHL's consistent investment in research and development has
+                allowed them to pioneer cutting-edge color technologies.
+              </p>
             </div>
 
             {/* 5th item */}
@@ -262,15 +249,11 @@ export default function Blocks() {
               </svg>
 
               <h4 className='h4 mb-2'>ACCESSIBLE</h4>
-              {/* <p className='text-lg font-medium text-gray-300 text-center'>
-                <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
-                  OUR LABRATORY FACILITIES
-                </span>{' '}
-                are available to you and your staff to test formulations or to
-                work out a full pilot program. No matter what the situation, we
-                are totally prepared to tailor solutions to our customers’
-                individual needs.
-              </p> */}
+              <p className='text-lg font-medium text-gray-300 text-center'>
+                Whether through online platforms or traditional communication
+                methods, JHL ensures that customers receive timely assistance
+                and support for a seamless experience.
+              </p>
             </div>
 
             {/* 6th item */}
@@ -315,14 +298,11 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className='h4 mb-2'>COMMUNICATION</h4>
-              {/* <p className='text-lg font-medium text-gray-300 text-center'>
-                <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
-                  OUR STAFF WILL WORK
-                </span>{' '}
-                with you every step of the way, from color development through
-                product and delivery to ensure the ultimate in product integrity
-                and customer satisfaction.
-              </p> */}
+              <p className='text-lg font-medium text-gray-300 text-center'>
+                Our staff will work with you every step of the way, from color
+                development through product and delivery to ensure the ultimate
+                in product integrity and customer satisfaction.
+              </p>
             </div>
           </div>
         </div>

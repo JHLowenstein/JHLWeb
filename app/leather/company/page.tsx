@@ -5,7 +5,7 @@ export const metadata = {
 
 import HeroAbout from '@/components/hero-about'
 
-import Timeline from '@/components/hair/hair-timeline'
+import Timeline from '@/components/leather/leather-timeline'
 import Team from '@/components/team'
 import World from '@/components/countries'
 

@@ -3,9 +3,9 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
-import FeatImage01 from '@/public/images/hpm1.png'
-import FeatImage02 from '@/public/images/hm5.png'
+import Client from '@/public/images/global-client2.png'
 import Color from '@/public/images/smz3.png'
+import Support from '@/public/images/client-support.png'
 
 export default function hairZigZag() {
   return (
@@ -25,7 +25,7 @@ export default function hairZigZag() {
               >
                 <Image
                   className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                  src={FeatImage01}
+                  src={Client}
                   width={540}
                   height={405}
                   alt='Features 01'
@@ -68,7 +68,7 @@ export default function hairZigZag() {
               >
                 <Image
                   className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                  src={FeatImage02}
+                  src={Color}
                   width={540}
                   height={405}
                   alt='Features 02'
@@ -112,7 +112,7 @@ export default function hairZigZag() {
               >
                 <Image
                   className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                  src={Color}
+                  src={Support}
                   width={540}
                   height={405}
                   alt='Color since 1897'
