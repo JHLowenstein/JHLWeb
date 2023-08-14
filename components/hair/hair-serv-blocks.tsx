@@ -66,9 +66,6 @@ export default function Blocks() {
 
               <h4 className='h4 mb-2'>COMMITMENT</h4>
               <p className='text-lg font-medium text-gray-300 text-center'>
-                {/* <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-white via-emerald-300 to-violet-300 '>
-                  JHL HAS DEDICATED ITSELF
-                </span>{' '} */}
                 One of the cornerstones of JHL's success is their unwavering
                 commitment to maintaining high-quality standards.
               </p>

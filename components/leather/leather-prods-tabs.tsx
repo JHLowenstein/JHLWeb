@@ -108,6 +108,7 @@ export default function Tabs() {
                         width={516}
                         height={387}
                         alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
@@ -253,7 +254,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 02'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto'>
@@ -298,7 +300,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 01'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>

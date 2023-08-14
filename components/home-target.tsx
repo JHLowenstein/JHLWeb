@@ -44,7 +44,8 @@ export default function Target() {
                       src={Color1897}
                       width={540}
                       height={520}
-                      alt='Features 02'
+                      alt='Color since 1897'
+                      style={{ pointerEvents: 'none' }}
                     />
                   </Link>
                 </motion.div>

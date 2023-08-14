@@ -47,7 +47,8 @@ export default function Zigzag() {
                     src={BKBridge}
                     width={540}
                     height={405}
-                    alt='Features 01'
+                    alt='Vintage Brooklyn Bridge'
+                    style={{ pointerEvents: 'none' }}
                   />
                 </motion.div>
               </div>
@@ -136,7 +137,8 @@ export default function Zigzag() {
                     src={Lab}
                     width={540}
                     height={405}
-                    alt='Features 01'
+                    alt='Labratory'
+                    style={{ pointerEvents: 'none' }}
                   />
                 </motion.div>
               </div>
@@ -180,7 +182,8 @@ export default function Zigzag() {
                     src={Support}
                     width={540}
                     height={405}
-                    alt='Features 01'
+                    alt='Customer Service'
+                    style={{ pointerEvents: 'none' }}
                   />
                 </motion.div>
               </div>

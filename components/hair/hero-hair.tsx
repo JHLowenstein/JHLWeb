@@ -38,7 +38,7 @@ export default function Hero() {
                     JHL is Transforming
                   </span>{' '}
                   <br />
-                  <span className='text-pink-300'>HAIR COLOR</span>
+                  <span className=''>HAIR COLOR</span>
                 </h1>
                 <p
                   className='text-xl font-semibold text-white mb-10 '
@@ -62,7 +62,7 @@ export default function Hero() {
                     width={300}
                     height={300}
                     alt='hair model'
-                    style={{ zIndex: '2' }}
+                    style={{ zIndex: '2', pointerEvents: 'none' }}
                   />
                 </div>
               </div>

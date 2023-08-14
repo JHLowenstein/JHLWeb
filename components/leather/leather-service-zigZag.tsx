@@ -28,7 +28,8 @@ export default function ZigZag() {
                   src={Client}
                   width={540}
                   height={405}
-                  alt='Features 01'
+                  alt='Client'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}
@@ -71,7 +72,8 @@ export default function ZigZag() {
                   src={Color}
                   width={540}
                   height={405}
-                  alt='Features 02'
+                  alt='materials'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}
@@ -116,6 +118,7 @@ export default function ZigZag() {
                   width={540}
                   height={405}
                   alt='Color since 1897'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}

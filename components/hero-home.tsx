@@ -21,7 +21,7 @@ export default function HeroHome() {
           height={394}
           priority
           alt='About'
-          style={{ zIndex: '-10' }}
+          style={{ zIndex: '-10', pointerEvents: 'none' }}
         />
         <div
           className='absolute inset-0 bg-gray-900 opacity-75'

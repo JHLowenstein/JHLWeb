@@ -64,13 +64,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(1)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-pink-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-pink-300 group-hover:text-pink-400 transition-colors duration-150 ease-in-out'>
                   Lowenol Surfactants
                 </span>
@@ -81,13 +74,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(2)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-emerald-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-emerald-300 group-hover:text-emerald-400 transition-colors duration-150 ease-in-out'>
                   Bleaching Products
                 </span>
@@ -98,13 +84,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(3)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-violet-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-violet-400 group-hover:text-violet-200 transition-colors duration-150 ease-in-out'>
                   Stabilizing / Chelating Agents
                 </span>
@@ -115,13 +94,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(4)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-sky-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-sky-300 group-hover:text-sky-400 transition-colors duration-150 ease-in-out'>
                   Protein Derivatives / Conditioner
                 </span>
@@ -132,13 +104,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(5)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-amber-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-amber-300 group-hover:text-amber-400 transition-colors duration-150 ease-in-out'>
                   Colors
                 </span>
@@ -149,13 +114,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(6)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-pink-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-pink-300 group-hover:text-pink-400 transition-colors duration-150 ease-in-out'>
                   Shining Colors
                 </span>
@@ -166,13 +124,6 @@ export default function Tabs() {
                 }`}
                 onClick={() => setTab(7)}
               >
-                {/* <svg
-                  className='w-4 h-4 fill-current text-emerald-300 mr-2'
-                  viewBox='0 0 16 16'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path d='M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z' />
-                </svg> */}
                 <span className='text-emerald-300 group-hover:text-emerald-700 transition-colors duration-150 ease-in-out'>
                   Viscosity Builders
                 </span>
@@ -206,6 +157,7 @@ export default function Tabs() {
                         width={516}
                         height={387}
                         alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
@@ -360,7 +312,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 02'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto'>
@@ -405,7 +358,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 01'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
@@ -463,7 +417,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 02'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto'>
@@ -530,7 +485,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 01'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>
@@ -623,7 +579,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 02'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto'>
@@ -657,7 +614,8 @@ export default function Tabs() {
                         src={Chemistry}
                         width={516}
                         height={387}
-                        alt='Tabs 01'
+                        alt='color chemistry'
+                        style={{ pointerEvents: 'none' }}
                       />
                     </figure>
                     <div className='relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl'>

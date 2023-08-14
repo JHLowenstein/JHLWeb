@@ -36,7 +36,8 @@ export default function furZigZag() {
                   src={FeatImage01}
                   width={540}
                   height={405}
-                  alt='Features 01'
+                  alt='products'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}
@@ -87,7 +88,8 @@ export default function furZigZag() {
                   src={Raw}
                   width={540}
                   height={405}
-                  alt='Features 02'
+                  alt='services'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}
@@ -135,6 +137,7 @@ export default function furZigZag() {
                   width={540}
                   height={405}
                   alt='Color since 1897'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}

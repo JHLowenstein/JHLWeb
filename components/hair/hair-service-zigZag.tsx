@@ -28,7 +28,8 @@ export default function hairZigZag() {
                   src={Client}
                   width={540}
                   height={405}
-                  alt='Features 01'
+                  alt='global clients'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}
@@ -71,7 +72,8 @@ export default function hairZigZag() {
                   src={Color}
                   width={540}
                   height={405}
-                  alt='Features 02'
+                  alt='Color'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}
@@ -116,6 +118,7 @@ export default function hairZigZag() {
                   width={540}
                   height={405}
                   alt='Color since 1897'
+                  style={{ pointerEvents: 'none' }}
                 />
               </div>
               {/* Content */}

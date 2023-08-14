@@ -26,7 +26,8 @@ export default function TeamImages() {
                 src={Mosaic03}
                 width='220'
                 height='240'
-                alt='Team mosaic 02'
+                alt='product mosaic 02'
+                style={{ pointerEvents: 'none' }}
               />
             </figure>
             <figure
@@ -39,7 +40,8 @@ export default function TeamImages() {
                 src={Mosaic02}
                 width='500'
                 height='538'
-                alt='Team mosaic 01'
+                alt='product mosaic 01'
+                style={{ pointerEvents: 'none' }}
               />
             </figure>
             <figure
@@ -57,27 +59,10 @@ export default function TeamImages() {
                 src={Mosaic01}
                 width='220'
                 height='240'
-                alt='Team mosaic 03'
+                alt='product mosaic 03'
+                style={{ pointerEvents: 'none' }}
               />
             </figure>
-            {/* <figure
-              className='absolute h-auto'
-              style={{
-                bottom: '0',
-                right: '20%',
-                width: '25.52%',
-                maxWidth: '196px',
-              }}
-              data-aos='fade-up'
-              data-aos-delay='300'
-            >
-              <Image
-                src={Mosaic04}
-                width='196'
-                height='196'
-                alt='Team mosaic 04'
-              />
-            </figure> */}
           </div>
         </div>
       </div>

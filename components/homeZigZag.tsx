@@ -43,7 +43,8 @@ export default function Zigzag() {
                       src={FeatImage01}
                       width={540}
                       height={405}
-                      alt='Features 01'
+                      alt='Hair Model'
+                      style={{ pointerEvents: 'none' }}
                     />
                   </Link>
                 </motion.div>
@@ -64,22 +65,12 @@ export default function Zigzag() {
                     <br />
                   </p>
                   <p className='text-xl mt-2 font-medium text-gray-200'>
-                    <motion.div
-                      className='box'
-                      whileHover={{ scale: 1.05 }}
-                      transition={{
-                        type: 'spring',
-                        stiffness: 400,
-                        damping: 10,
-                      }}
-                    >
-                      <Link href='/hair'>
-                        {' '}
-                        <span className=' text-transparent font-semibold bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                          Learn more
-                        </span>{' '}
-                      </Link>
-                    </motion.div>
+                    <Link href='/hair'>
+                      {' '}
+                      <span className=' text-transparent font-semibold bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                        Learn more
+                      </span>{' '}
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -103,7 +94,8 @@ export default function Zigzag() {
                       src={FeatImage02}
                       width={540}
                       height={405}
-                      alt='Features 01'
+                      alt='Fur Model'
+                      style={{ pointerEvents: 'none' }}
                     />
                   </Link>
                 </motion.div>
@@ -152,7 +144,8 @@ export default function Zigzag() {
                       src={FeatImage03}
                       width={540}
                       height={405}
-                      alt='Features 01'
+                      alt='Leather Model'
+                      style={{ pointerEvents: 'none' }}
                     />
                   </Link>
                 </motion.div>
