@@ -35,7 +35,8 @@ export default function Team() {
                   src={David}
                   width={220}
                   height={220}
-                  alt='Team member 01'
+                  alt='David Lowenstein'
+                  style={{ pointerEvents: 'none' }}
                 />
                 <h4 className='text-xl font-medium mb-1'>David Lowenstein</h4>
                 <div className='text-gray-500 mb-1'>President</div>
@@ -61,7 +62,8 @@ export default function Team() {
                   src={Steve}
                   width={220}
                   height={220}
-                  alt='Team member 02'
+                  alt='Steve Lowenstein'
+                  style={{ pointerEvents: 'none' }}
                 />
                 <h4 className='text-xl font-medium mb-1'>Steve Lowenstein</h4>
                 <div className='text-gray-500 mb-1'>Chairman</div>
