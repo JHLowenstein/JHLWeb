@@ -4,8 +4,9 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 import BKBridge from '@/public/images/bk-bridge.png'
-import FeatImage02 from '@/public/images/fur-hero.png'
-import FeatImage03 from '@/public/images/leather-hero.png'
+import Global from '@/public/images/global-client.png'
+import Support from '@/public/images/client-support.png'
+import Lab from '@/public/images/lab.png'
 
 export default function Zigzag() {
   return (
@@ -29,7 +30,7 @@ export default function Zigzag() {
           </div>
           {/* Items */}
           <div className='grid gap-20'>
-            {/* 1st item */}
+            {/* Tradition of Excellence for Over 100 Years */}
             <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
               {/* Image */}
               <div
@@ -74,7 +75,7 @@ export default function Zigzag() {
               </div>
             </div>
 
-            {/* 2nd item */}
+            {/* Global Clients */}
             <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
               {/* Image */}
               <div
@@ -88,7 +89,7 @@ export default function Zigzag() {
                 >
                   <Image
                     className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                    src={FeatImage02}
+                    src={Global}
                     width={540}
                     height={405}
                     alt='Features 01'
@@ -117,7 +118,8 @@ export default function Zigzag() {
                 </div>
               </div>
             </div>
-            {/* 3rd item */}
+
+            {/* State-of-The Art Facilities */}
             <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
               {/* Image */}
               <div
@@ -131,7 +133,7 @@ export default function Zigzag() {
                 >
                   <Image
                     className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
-                    src={BKBridge}
+                    src={Lab}
                     width={540}
                     height={405}
                     alt='Features 01'
@@ -156,11 +158,47 @@ export default function Zigzag() {
                     instrumentation, including Gas Chromatographs, High-pressure
                     Liquid Chromatographs, Infrared Spectrophotometers and color
                     measurement software assure quality and consistency in every
-                    product. With over 100,000 square feet of manufacturing and
-                    warehouse space, a global network of distribution
-                    facilities, scientists, product marketing specialists,
-                    expert sales agents, customer service representatives, and
-                    the capabilities to meet large multi-ton orders, as well as
+                    product.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className='md:grid md:grid-cols-12 md:gap-6 items-center'>
+              {/* Image */}
+              <div
+                className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl'
+                data-aos='fade-up'
+              >
+                <motion.div
+                  className='box'
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 10 }}
+                >
+                  <Image
+                    className='max-w-full rounded-xl mx-auto md:max-w-none h-auto'
+                    src={Support}
+                    width={540}
+                    height={405}
+                    alt='Features 01'
+                  />
+                </motion.div>
+              </div>
+              {/* Content */}
+              <div
+                className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6'
+                data-aos='fade-left'
+              >
+                <div className='md:pl-4 lg:pl-12 xl:pl-16'>
+                  <h3 className='h3  font-semibold mb-2'>
+                    Achieving the Satisfaction of our Client's requests
+                  </h3>
+                  <p className='text-xl font-medium text-gray-200'>
+                    With over 100,000 square feet of manufacturing and warehouse
+                    space, a global network of distribution facilities,
+                    scientists, product marketing specialists, expert sales
+                    agents, customer service representatives, and the
+                    capabilities to meet large multi-ton orders, as well as
                     small one color requests, JHL is uniquely prepared to meet
                     your most demanding requirements.
                   </p>

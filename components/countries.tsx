@@ -48,7 +48,7 @@ export default function TestimonialsCarousel() {
       quote:
         'JHL caters to a wide range of clients based in Belarus, China, Hong Kong, India, Indonesia, Israel, Japan, Korea, Lebanon, Malaysia, Philippines, Pakistan, Russia, Singapore, Sri Lanka, Turkey, Taiwan, Thailand and Vietnam',
       name: 'ASIA/ MIDDLE EAST',
-      font1: 'text-violet00',
+      font1: 'text-violet-300',
       font2: 'text-lg  font-medium ',
     },
     {
@@ -394,13 +394,13 @@ export default function TestimonialsCarousel() {
                       beforeEnter={() => heightFix()}
                     >
                       <div className='relative inline-flex flex-col justify-center mb-4'>
-                        <Image
+                        {/* <Image
                           className='rounded-full'
                           src={item.img}
                           width={56}
                           height={56}
                           alt={item.alt}
-                        />
+                        /> */}
                       </div>
                       <div className='font-bold my-3'>
                         <span className={item.font1}>{item.name}</span>{' '}

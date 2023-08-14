@@ -91,41 +91,21 @@ const ContactSection: React.FC = () => {
           <div className='max-w-6xl mx-auto px-4 sm:px-6'>
             <div className='py-5 md:py-5 font-semibold'>
               {/* Section header */}
-
-              <ul
-                className='md:ml-5 flex flex-wrap gap-x-12 gap-y-6 items-center lg:gap-x-24 mb-40'
-                data-aos='fade-up'
-              >
-                {contactMethods.map((item, idx) => (
-                  <li key={idx}>
-                    <h4 className='text-snow-400 font-semibold text-center text-lg font-bold'>
-                      {item.title}
-                    </h4>
-                    <div className='mt-3 flex font-semibold items-center gap-x-3'>
-                      <div className='flex-none text-center text-snow-400 text-xl font-bold'>
-                        {item.icon}
-                      </div>
-                      {item.title === 'Phone' ? (
-                        <a
-                          className='font-semibold'
-                          href={`tel:${item.contact}`}
-                        >
-                          {item.contact}
-                        </a>
-                      ) : (
-                        <a
-                          className='font-semibold'
-                          href={`mailto:${item.contact}`}
-                          target='blank'
-                        >
-                          {item.contact}
-                        </a>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ul>
-              <section className=''>
+              <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16 mt-40'>
+                <h2 className='h2 mb-4'>
+                  Connect with our{' '}
+                  <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                    Expert Staff
+                  </span>{' '}
+                  for all Color Inquiries
+                </h2>
+                <p className='text-xl text-gray-400'>
+                  Feel free to connect with our team of experts, who are
+                  well-versed in all aspects of color inquiries, ready to
+                  provide you with comprehensive information and guidance.
+                </p>
+              </div>
+              <section className='mt-20'>
                 <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
                   <div className=''>
                     {/*  */}
@@ -175,7 +155,7 @@ const ContactSection: React.FC = () => {
                             damping: 10,
                           }}
                         >
-                          <Link href='/fur'>
+                          <Link href='mailto:info@jhlowenstein.com'>
                             <Image
                               className='rounded-lg'
                               src={Email}
@@ -194,6 +174,40 @@ const ContactSection: React.FC = () => {
                   </div>
                 </div>
               </section>
+
+              <ul
+                className='md:ml-5 flex flex-wrap gap-x-12 gap-y-6 items-center lg:gap-x-24 mb-40'
+                data-aos='fade-up'
+              >
+                {contactMethods.map((item, idx) => (
+                  <li key={idx}>
+                    <h4 className='text-snow-400 font-semibold text-center text-lg font-bold'>
+                      {item.title}
+                    </h4>
+                    <div className='mt-3 flex font-semibold items-center gap-x-3'>
+                      <div className='flex-none text-center text-snow-400 text-xl font-bold'>
+                        {item.icon}
+                      </div>
+                      {item.title === 'Phone' ? (
+                        <a
+                          className='font-semibold'
+                          href={`tel:${item.contact}`}
+                        >
+                          {item.contact}
+                        </a>
+                      ) : (
+                        <a
+                          className='font-semibold'
+                          href={`mailto:${item.contact}`}
+                          target='blank'
+                        >
+                          {item.contact}
+                        </a>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

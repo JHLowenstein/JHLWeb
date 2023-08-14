@@ -3,6 +3,20 @@ export default function Timeline() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='py-12 md:py-20'>
+          {/* Section header */}
+          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-16'>
+            <h2 className='h2 mb-4'>
+              Signficant{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                Key
+              </span>{' '}
+              Dates
+            </h2>
+            <p className='text-xl text-gray-400'>
+              Throughout its history, JHL has journeyed through a series of
+              significant dates that have shaped its identity and path.
+            </p>
+          </div>
           {/* Items */}
           {/* Items */}
           <div
