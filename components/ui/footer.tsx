@@ -221,7 +221,11 @@ export default function Footer() {
 
             {/* Copyrights note */}
             <div className='text-gray-400 text-sm mr-4'>
-              &copy; jhlowenstein.com - All rights reserved.
+              &copy;{' '}
+              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                jhlowenstein.com{' '}
+              </span>{' '}
+              - All rights reserved.
             </div>
           </div>
         </div>
