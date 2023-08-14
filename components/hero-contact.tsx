@@ -7,7 +7,7 @@ import JHL from '@/public/images/contact-banner.png'
 export default function Hero() {
   return (
     <>
-      <section className='relative'>
+      <section className='relative '>
         {/* Background image */}
         <div className='absolute inset-0'>
           <Image
@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
         <div className='max-w-6xl mx-auto px-4 sm:px-6 relative '>
           {/* Hero content */}
-          <section className='relative'>
+          <div className='relative'>
             <div className='max-w-6xl mx-auto px-4 sm:px-6'>
               <div className='pt-32 pb-12 md:pt-40 md:pb-10'>
                 <div className='max-w-3xl mx-auto text-center'>
@@ -42,7 +42,7 @@ export default function Hero() {
                     at JHL
                   </h1>
                   <p
-                    className='text-xl font-medium text-white mb-10 '
+                    className='text-xl font-medium text-white  '
                     data-aos='fade-up'
                     data-aos-delay='200'
                   >
@@ -60,13 +60,13 @@ export default function Hero() {
                     data-aos='fade-up'
                   >
                     {/* <Image
-                     className='rounded-xl my-3 w-full h-full object-cover '
-                     src={HeroLogo}
-                     width={196}
-                     height={196}
-                     alt='404'
-                     style={{ zIndex: '2' }}
-                   /> */}
+                      className='rounded-xl my-3 w-full h-full object-cover mb-40 hidden md:block'
+                      src={JHL}
+                      width={196}
+                      height={196}
+                      alt='404'
+                      style={{ zIndex: '2' }}
+                    /> */}
                     {/* <svg
                      className='w-20 h-20 fill-current text-pink-400 absolute top-0 right-0 -mr-6'
                      width='84'
@@ -84,7 +84,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </section>
     </>

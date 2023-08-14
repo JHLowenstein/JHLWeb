@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import BKBridge from '@/public/images/bk-bridge.png'
 import Global from '@/public/images/global-client.png'
 import Support from '@/public/images/client-support.png'
-import Lab from '@/public/images/lab.png'
+import Lab from '@/public/images/chemistry2.png'
 
 export default function Zigzag() {
   return (

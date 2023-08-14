@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import Mosaic01 from '@/public/images/smc5.png'
-import Mosaic02 from '@/public/images/smc4.png'
+import Mosaic01 from '@/public/images/cc4.png'
+import Mosaic02 from '@/public/images/cc4.png'
 import Mosaic03 from '@/public/images/smc2.png'
 import Mosaic04 from '@/public/images/hpm3.png'
 

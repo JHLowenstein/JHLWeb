@@ -30,7 +30,7 @@ export default function HeroHome() {
       </div>
       <div className='max-w-6xl mx-auto px-4 sm:px-6 relative mb-10'>
         {/* Hero content */}
-        <section className='relative'>
+        <div className='relative'>
           <div className='max-w-6xl mx-auto px-4 sm:px-6'>
             <div className='pt-32 pb-12 md:pt-40 md:pb-10'>
               <div className='max-w-3xl mx-auto text-center'>
@@ -60,7 +60,7 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
         <section className='pb-40 hidden md:block'>
           <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
             <div className=''>

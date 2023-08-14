@@ -21,7 +21,7 @@ export default function Company() {
       <Zig />
       <Timeline />
       <Team />
-      <World />
+      <Connect />
     </>
   )
 }

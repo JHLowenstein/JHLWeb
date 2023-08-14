@@ -103,7 +103,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href='/'
+                    href='/fur/products'
                     className='font-semibold text-md  hover:text-emerald-400 flex py-2 px-4 leading-tight'
                   >
                     PRODUCTS
@@ -111,7 +111,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href='/'
+                    href='/fur/services'
                     className='font-semibold text-md  hover:text-violet-400 flex py-2 px-4 leading-tight'
                   >
                     SERVICES
@@ -135,7 +135,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href='/'
+                    href='/leather/products'
                     className='font-semibold text-md  hover:text-emerald-300 flex py-2 px-4 leading-tight'
                   >
                     PRODUCTS
@@ -143,7 +143,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href='/'
+                    href='/leather/services'
                     className='font-semibold text-md  hover:text-violet-300 flex py-2 px-4 leading-tight'
                   >
                     SERVICES

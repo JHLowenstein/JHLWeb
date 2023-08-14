@@ -9,15 +9,16 @@ export const metadata = {
 
 import Hero from '@/components/hero-contact'
 import Content from '@/components/contactContent'
-
-import Contct from '@/components/cta'
+import Mosaic from '@/components/contact-images'
+import World from '@/components/countries'
 
 export default function Contact() {
   return (
     <>
       <Hero />
+      <Mosaic />
       <Content />
-      <Contct />
+      <World />
     </>
   )
 }

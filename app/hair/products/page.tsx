@@ -11,9 +11,6 @@ import Hero from '@/components/hair/hero-hair-prod'
 
 import ProdTabs from '@/components/hair/hair-prods-tabs'
 import Mosaic from '@/components/hair/hair-prod-mosaic'
-import Tabs from '@/components/tabs'
-import Target from '@/components/home-target'
-import Newsletter from '@/components/newsletter'
 import Particles from '@/components/particles'
 
 export default function Hair() {
@@ -21,10 +18,7 @@ export default function Hair() {
     <section>
       <Hero />
       <Mosaic />
-      <Particles
-        className='absolute inset-0 -z-10 animate-fade-in'
-        quantity={200}
-      />
+
       <ProdTabs />
     </section>
   )

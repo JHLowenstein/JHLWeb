@@ -36,7 +36,7 @@ export default function Tabs() {
                 BRIGHT BOLD UNIQUE
               </span>{' '}
               <br />
-              <span className='text-pink-300'>HAIR PRODUCTS</span>
+              <span className=''>HAIR PRODUCTS</span>
             </h2>
             {/* <p
               className='text-xl text-gray-400'

@@ -69,7 +69,7 @@ export default function MobileMenu() {
         }
       >
         <ul className='bg-gray-800 px-4 py-2'>
-          <li className='py-2 my-2 border-t border-b border-gray-700'>
+          <li className='py-2 my-2 '>
             <span className='flex text-white py-2'>HAIR</span>
             <ul className='pl-4'>
               <li>
@@ -101,7 +101,7 @@ export default function MobileMenu() {
               </li>
             </ul>
           </li>
-          <li className='py-2 my-2 border-t border-b border-gray-700'>
+          <li className='py-2 my-2 border-t  border-gray-700'>
             <span className='flex text-white py-2'>FUR</span>
             <ul className='pl-4'>
               <li>

@@ -29,7 +29,7 @@ export default function HeroAbout() {
             <h1 className='h1 mb-4' data-aos='fade-up' data-aos-delay='200'>
               Discover the{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                HAIR Services
+                Color Services
               </span>{' '}
               offered by the staff at JHL
             </h1>
@@ -41,7 +41,7 @@ export default function HeroAbout() {
               Our team of expert chemists and technical staff is dedicated to
               delivering exceptional{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                HAIR COLOR
+                COLOR
               </span>{' '}
               formulation services.
             </p>

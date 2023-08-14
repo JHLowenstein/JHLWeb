@@ -18,7 +18,6 @@ export default function Hair() {
       <Hero />
       <HairZigZag />
       <CTA />
-      <Newsletter />
     </section>
   )
 }

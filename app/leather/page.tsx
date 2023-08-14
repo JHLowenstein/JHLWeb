@@ -5,7 +5,7 @@ export const metadata = {
 
 import Hero from '@/components/leather/hero-leather'
 import Zig from '@/components/leather/leatherZigZag'
-import NewsLetter from '@/components/newsletter'
+
 import Cta from '@/components/cta'
 
 export default function Leather() {
@@ -14,7 +14,6 @@ export default function Leather() {
       <Hero />
       <Zig />
       <Cta />
-      <NewsLetter />
     </>
   )
 }

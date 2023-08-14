@@ -1,44 +1,45 @@
 import Image from 'next/image'
 
-import TeamMosaic01 from '@/public/images/smc1.png'
-import TeamMosaic02 from '@/public/images/smc1.png'
-import TeamMosaic03 from '@/public/images/smc1.png'
-import TeamMosaic04 from '@/public/images/smc1.png'
+import Mosaic01 from '@/public/images/smc5.png'
+import Mosaic02 from '@/public/images/smc4.png'
+import Mosaic03 from '@/public/images/smc2.png'
+import Mosaic04 from '@/public/images/hpm3.png'
 
 export default function TeamImages() {
   return (
-    <section className='relative -mt-8 mb-10'>
+    <section className='relative -mt-8'>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='max-w-3xl mx-auto'>
-          <div className='relative w-full h-0 pb-3/4'>
+          <div className='relative w-full h-0 pb-40 mb-40'>
             <figure
               className='absolute h-auto'
               style={{
-                top: '45%',
+                top: '8.5%',
                 width: '41.67%',
-                maxWidth: '320px',
-                zIndex: '10',
+                maxWidth: '220px',
+                zIndex: '1',
               }}
               data-aos='fade-right'
             >
               <Image
-                src={TeamMosaic02}
-                width='320'
+                className='md:block hidden'
+                src={Mosaic03}
+                width='220'
                 height='240'
                 alt='Team mosaic 02'
               />
             </figure>
             <figure
-              className='relative mx-auto h-auto '
-              style={{ width: '78.13%', maxWidth: '600px', zIndex: '' }}
+              className='relative mx-auto h-auto'
+              style={{ width: '78.13%', maxWidth: '500px' }}
               data-aos='fade-down'
               data-aos-delay='100'
             >
               <Image
-                src={TeamMosaic01}
-                width='600'
-                height='338'
-                alt='hair model'
+                src={Mosaic02}
+                width='500'
+                height='538'
+                alt='Team mosaic 01'
               />
             </figure>
             <figure
@@ -47,19 +48,19 @@ export default function TeamImages() {
                 top: '8.5%',
                 right: '0',
                 width: '32.55%',
-                maxWidth: '250px',
+                maxWidth: '220px',
               }}
               data-aos='fade-left'
               data-aos-delay='200'
             >
               <Image
-                src={TeamMosaic03}
-                width='250'
-                height='188'
+                src={Mosaic01}
+                width='220'
+                height='240'
                 alt='Team mosaic 03'
               />
             </figure>
-            <figure
+            {/* <figure
               className='absolute h-auto'
               style={{
                 bottom: '0',
@@ -71,12 +72,12 @@ export default function TeamImages() {
               data-aos-delay='300'
             >
               <Image
-                src={TeamMosaic04}
+                src={Mosaic04}
                 width='196'
                 height='196'
                 alt='Team mosaic 04'
               />
-            </figure>
+            </figure> */}
           </div>
         </div>
       </div>

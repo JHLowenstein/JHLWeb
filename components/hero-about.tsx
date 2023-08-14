@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
-import HeroImage from '@/public/images/cc1.png'
+import HeroImage from '@/public/images/bk-bridge.jpg'
+import JHL from '@/public/images/cc1.png'
 import moduleName from 'module'
 
 export default function HeroAbout() {
@@ -22,9 +23,9 @@ export default function HeroAbout() {
           aria-hidden='true'
         ></div>
       </div>
-      <div className='max-w-6xl mx-auto px-4 sm:px-6 relative mb-10'>
+      <div className='max-w-6xl mx-auto px-4 sm:px-6 relative mb-20'>
         {/* Hero content */}
-        <section className='relative'>
+        <div className='relative'>
           <div className='max-w-6xl mx-auto px-4 sm:px-6 relative'>
             <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
               <div className='max-w-3xl mx-auto text-center'>
@@ -35,7 +36,7 @@ export default function HeroAbout() {
                   </span>
                 </h1>
                 <p
-                  className='text-xl font-medium text-gray-300 mb-8'
+                  className='text-xl font-medium text-gray-300 mb-40 md:mb-8'
                   data-aos='fade-up'
                   data-aos-delay='200'
                 >
@@ -51,18 +52,18 @@ export default function HeroAbout() {
                   data-aos='fade-up'
                 >
                   <Image
-                    className='rounded-xl w-full h-full obect-cover mt-10 mb-40 '
-                    src={HeroImage}
+                    className='rounded-xl w-full h-full obect-cover mt-10 mb-20 hidden md:block'
+                    src={JHL}
                     width={300}
                     height={300}
-                    alt='hair model'
+                    alt='brooklyn bridge'
                     style={{ zIndex: '2' }}
                   />
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </section>
   )

@@ -50,7 +50,7 @@ export default function Hero() {
                 </p>
                 {/* image */}
                 <div
-                  className='relative inline-flex flex-col mb-2 md:mb-60'
+                  className='relative inline-flex flex-col mb-2 md:mb-40'
                   data-aos='fade-up'
                 >
                   <Image

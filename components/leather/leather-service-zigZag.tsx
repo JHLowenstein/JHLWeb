@@ -7,7 +7,7 @@ import Client from '@/public/images/global-client2.png'
 import Color from '@/public/images/smz3.png'
 import Support from '@/public/images/client-support.png'
 
-export default function hairZigZag() {
+export default function ZigZag() {
   return (
     <section className='mt-10'>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
@@ -125,14 +125,14 @@ export default function hairZigZag() {
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                   <h3 className='h3 mb-3'>
-                    Specialized Services For Hair Formulators{' '}
+                    Specialized Services For Leather Color Formulators{' '}
                   </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}
                     <span className='font-semibold text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
                       IN ADDITION TO THE COMPREHENSIVE SERVICE AND SUPPORT
                     </span>{' '}
-                    provided to our customers, JHL hair color specialists and
+                    provided to our customers, JHL leather color specialists and
                     formulators also provide valuable insights into navigating
                     rigorous regulatory issues, custom dye synthesis, and
                     proprietary color formulation collaborations exclusively for

@@ -125,7 +125,7 @@ export default function furZigZag() {
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
                   <h3 className='h3 mb-3'>
-                    Specialized Services For fur Formulators{' '}
+                    Specialized Services For Fur Color Formulators{' '}
                   </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}

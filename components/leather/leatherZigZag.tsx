@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
-import FeatImage01 from '@/public/images/hpm1.png'
+import FeatImage01 from '@/public/images/chemistry2.png'
 import Raw from '@/public/images/raw-materials.png'
 import Color1897 from '@/public/images/Color1897.png'
 

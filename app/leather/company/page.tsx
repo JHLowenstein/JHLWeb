@@ -11,7 +11,7 @@ import HeroAbout from '@/components/hero-about'
 import Zig from '@/components/company-zigzag'
 import Timeline from '@/components/company-timeline'
 import Team from '@/components/team'
-import World from '@/components/countries'
+import Contact from '@/components/cta'
 
 export default function Company() {
   return (
@@ -20,7 +20,7 @@ export default function Company() {
       <Zig />
       <Timeline />
       <Team />
-      <World />
+      <Contact />
     </>
   )
 }

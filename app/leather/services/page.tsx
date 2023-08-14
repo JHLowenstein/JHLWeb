@@ -6,7 +6,7 @@ export const metadata = {
   description:
     'Since 1897, Jos. H. Lowenstein &amp; Sons, Inc. has been providing the world of fashion with brilliant, trend-setting colors for the fur, hair and leather industries all over the world. From a modest paint store in Brooklyn, New York to the technologically driven, quality dyestuff manufacturer we are today, JHL has prided itself on providing its customers with state-of-the-art dye products and impeccable personalized service. April 2003 JHL underwent a formal ISO 9001 audit. We passed with flying colors!',
 }
-import Head from 'next/head'
+
 import Hero from '@/components/hero-service'
 
 import SVC1 from '@/components/leather/leather-serv-blocks'
@@ -14,14 +14,9 @@ import SVC2 from '@/components/leather/leather-service-zigZag'
 import Contact from '@/components/cta-contact'
 import Images from '@/components/leather/leather-service-images'
 
-import Particles from '@/components/particles'
-
 export default function Leather() {
   return (
     <section>
-      <Head>
-        <meta property='og:image' content='@/public/images/leather-hero.png' />
-      </Head>
       <Hero />
       <Images />
       <SVC1 />
