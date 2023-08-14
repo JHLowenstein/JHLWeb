@@ -7,18 +7,16 @@ export const metadata = {
     'Hair color products, Hair dye solutions, Hair coloring, Hair tinting, Color treatments, Dye formulas, Hair pigmentation, Coloring techniques, Shade selection, Color customization, Vibrant hues, Permanent dyes, Temporary colors, Natural shades, Innovative formulas, Color enhancement, Trendsetting colors, Personalized shades, Professional colorists, Specialty dyes, Fashionable colors, Expressive hair hues, Custom color blends, Eco-friendly dyes, Hair color transformation',
 }
 
-import Hero from '@/components/hero-contact'
-import Mosaic from '@/components/contact-images'
 import Content from '@/components/contactContent'
 import World from '@/components/countries'
+import CTA from '@/components/cta'
 
 export default function Contact() {
   return (
     <>
-      <Hero />
-      <Mosaic />
       <Content />
       <World />
+      <CTA />
     </>
   )
 }
