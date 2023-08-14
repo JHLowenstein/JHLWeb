@@ -9,19 +9,15 @@ export const metadata = {
 
 import Hero from '@/components/hair/hero-hair'
 import HairZigZag from '@/components/hair/hairZigZag'
+import CTA from '@/components/cta'
 import Newsletter from '@/components/newsletter'
-import Particles from '@/components/particles'
 
 export default function Hair() {
   return (
     <section>
       <Hero />
-      <Particles
-        className='absolute inset-0 -z-10 animate-fade-in'
-        quantity={200}
-      />
-
       <HairZigZag />
+      <CTA />
       <Newsletter />
     </section>
   )

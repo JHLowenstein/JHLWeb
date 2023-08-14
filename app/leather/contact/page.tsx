@@ -9,12 +9,14 @@ export const metadata = {
 import Hero from '@/components/hero-contact'
 import Content from '@/components/contactContent'
 
-import CtaContact from '@/components/cta-contact'
+import Contct from '@/components/cta'
 
 export default function Contact() {
   return (
     <>
       <Hero />
+      <Content />
+      <Contct />
     </>
   )
 }

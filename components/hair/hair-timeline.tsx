@@ -3,22 +3,6 @@ export default function Timeline() {
     <section>
       <div className='max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='py-12 md:py-20'>
-          {/* Section header */}
-          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
-            <h2 className='h2 mb-4'>
-              Bringing{' '}
-              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                HAIR COLOR
-              </span>{' '}
-              to life
-            </h2>
-            <p className='text-xl text-gray-400'>
-              Through a combination of strategic decisions, technological
-              advancements, and a commitment to quality, JHL has effectively
-              become the top leader of Color Technology.
-            </p>
-          </div>
-
           {/* Items */}
           {/* Items */}
           <div

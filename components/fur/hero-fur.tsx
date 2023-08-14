@@ -35,7 +35,7 @@ export default function Hero() {
                     JHL is Transforming
                   </span>{' '}
                   <br />
-                  <span className='text-pink-300'>fur COLOR</span>
+                  <span className=''>FUR COLOR</span>
                 </h1>
                 <p
                   className='text-xl font-semibold text-white mb-10 '

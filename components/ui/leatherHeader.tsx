@@ -63,7 +63,7 @@ const leatherHeader: React.FC = ({}) => {
                   href='/leather'
                   className='font-semibold text-md  hover:text-pink-300 flex py-2 px-4 leading-tight'
                 >
-                  leather
+                  LEATHER
                 </Link>
               </li>
               <li>

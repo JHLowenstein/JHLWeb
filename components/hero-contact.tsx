@@ -1,13 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
-import { motion } from 'framer-motion'
 
 import JHL from '@/public/images/contact-banner.png'
-import Call from '@/public/images/CALL.png'
-import Email from '@/public/images/EMAIL.png'
-import Content from '@/components/contactContent'
 
 export default function Hero() {
   return (
@@ -90,76 +85,6 @@ export default function Hero() {
               </div>
             </div>
           </section>
-          <section className=''>
-            <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
-              <div className=''>
-                {/*  */}
-                <div className='max-w-sm mx-auto grid gap-8 lg:grid-cols-2  items-start lg:max-w-none'>
-                  {/* Hair Box */}
-                  <div
-                    className='flex flex-col h-full px-3 pb-6bg-white-800 rounded-xl'
-                    data-aos='fade-up'
-                  >
-                    <motion.div
-                      className='box'
-                      whileHover={{ scale: 1.05 }}
-                      transition={{
-                        type: 'spring',
-                        stiffness: 400,
-                        damping: 10,
-                      }}
-                    >
-                      <Link href='tel:+17183885410'>
-                        <Image
-                          className='rounded-lg transition duration-700 ease-out'
-                          src={Call}
-                          width={300}
-                          height={200}
-                          alt='hair model'
-                          style={{
-                            margin: 'auto',
-                            pointerEvents: 'none',
-                            zIndex: '12',
-                          }}
-                        />
-                      </Link>
-                    </motion.div>
-                  </div>
-
-                  {/* Fur Box */}
-                  <div
-                    className='flex flex-col h-full px-3 pb-6 bg-white-800 rounded-xl'
-                    data-aos='fade-up'
-                  >
-                    <motion.div
-                      className='box'
-                      whileHover={{ scale: 1.05 }}
-                      transition={{
-                        type: 'spring',
-                        stiffness: 400,
-                        damping: 10,
-                      }}
-                    >
-                      <Link href='/fur'>
-                        <Image
-                          className='rounded-lg'
-                          src={Email}
-                          width={300}
-                          height={200}
-                          alt='fur model'
-                          style={{
-                            margin: 'auto',
-                            pointerEvents: 'none',
-                          }}
-                        />
-                      </Link>
-                    </motion.div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <Content />
         </div>
       </section>
     </>

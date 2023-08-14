@@ -26,9 +26,9 @@ export default function Hero() {
         <div className='pt-32 pb-12 md:pt-40 md:pb-20'>
           <div className='max-w-3xl mx-auto text-center'>
             <h1 className='h1 mb-4' data-aos='fade-up' data-aos-delay='200'>
-              Explore the{' '}
+              Explore the <br />
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                HAIR PRODUCTS
+                LEATHER PRODUCTS
               </span>{' '}
               offered at JHL
             </h1>
@@ -40,7 +40,7 @@ export default function Hero() {
               Our team of expert chemists and technical staff is dedicated to
               delivering exceptional{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                HAIR COLOR
+                LEATHER COLOR
               </span>{' '}
               formulation services.
             </p>

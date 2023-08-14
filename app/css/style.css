@@ -22,6 +22,10 @@
 }
 
 ::selection {
-  background: #5e32ff;
+  background: #714aff;
   color: #ffffff;
+}
+
+img svg Image {
+  pointer-events: none;
 }

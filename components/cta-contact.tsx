@@ -8,11 +8,12 @@ export default function CtaContact() {
             {/* CTA content */}
             <div className='mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-3/4'>
               <h3 className='h3 text-gray-200 font-semibold mb-2'>
+                Talk to our{' '}
                 <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                  Talk to our expert staff
+                  Expert Staff
                 </span>{' '}
               </h3>
-              <p className='text-gray-200 text-lg'>
+              <p className='text-gray-200 text-xl'>
                 Drop us a line and we will get to you promptly
               </p>
             </div>

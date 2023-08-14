@@ -38,15 +38,6 @@ export default function Tabs() {
               <br />
               <span className=''>LEATHER PRODUCTS</span>
             </h2>
-            {/* <p
-              className='text-xl text-gray-400'
-              data-aos='fade-up'
-              data-aos-delay='200'
-              data-aos-anchor='[data-aos-id-tabs]'
-            >
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
-            </p> */}
           </div>
 
           {/* Section content */}

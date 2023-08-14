@@ -18,7 +18,7 @@ export default function hairZigZag() {
             <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
               ART
             </span>{' '}
-            OF HAIR COLOR FORMULATIONS
+            OF LEATHER COLOR FORMULATIONS
           </h1>
         </div>
         <div className='py-12 md:pt-6 md:pb-20'>
@@ -45,14 +45,16 @@ export default function hairZigZag() {
                 data-aos='fade-right'
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                  <h3 className='h3 mb-3 '>DYE INTERMEDIATES</h3>
+                  <h3 className='h3 mb-3 '>DEVELOPING NEW FORMULATIONS</h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    Dye Intermediates for permanent hair color are available,
-                    along with specially formulated bases and developers. The
-                    base materials for cream and liquid formulations are
-                    designed for maximum color deposition along with superior
-                    conditioning. Dyestuff and base materials are also available
-                    for semi-permanent and specialty systems.
+                    WHETHER IT‘S DEVELOPING NEW FORMULATIONS to help reduce
+                    pollution in tanneries, or stream-lining dyeing techniques,
+                    our Research and Development teams are working continuously
+                    to revolutionize the industry with innovative solutions to
+                    meet the challenges facing leather tanners worldwide.
+                    Technical support is available to the tanneries for the
+                    development of new articles, tailor-made processing, problem
+                    solving and color matching operations.
                   </p>
                   <a
                     className='btn rounded-xl text-white font-semibold bg-pink-400 hover:bg-white shadow hover:text-pink-400 hover:border-violet-300'
@@ -99,7 +101,7 @@ export default function hairZigZag() {
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     JHL provides a complete line of raw materials for the hair
                     color manufacturer. Our technical staff is well versed in
-                    all phases of the hair color formulator’s requirements.
+                    all phases of the leather color formulator’s requirements.
                   </p>
                   <a
                     className='btn rounded-lg text-white font-semibold bg-emerald-400 hover:bg-white shadow hover:text-emerald-400 hover:border-violet-300'
@@ -145,8 +147,8 @@ export default function hairZigZag() {
                   <h3 className='h3 mb-3'>100+ YEARS IN COLOR </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}
-                    With over 100 years of experience in the chemistry of fur
-                    dyeing and processing, JHL is the world leader in HAIR color
+                    With over 100 years of experience in the chemistry of dyeing
+                    and processing, JHL is the world leader in FUR color
                     technology.
                   </p>
                   <a

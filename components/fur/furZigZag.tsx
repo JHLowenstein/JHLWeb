@@ -45,14 +45,15 @@ export default function furZigZag() {
                 data-aos='fade-right'
               >
                 <div className='md:pr-4 lg:pr-12 xl:pr-16'>
-                  <h3 className='h3 mb-3 '>DYE INTERMEDIATES</h3>
+                  <h3 className='h3 mb-3 '>
+                    SINGLE, DOUBLE & TRIPLE REINFORCING
+                  </h3>
                   <p className='text-xl font-medium text-gray-300 mb-4'>
-                    Dye Intermediates for permanent fur color are available,
-                    along with specially formulated bases and developers. The
-                    base materials for cream and liquid formulations are
-                    designed for maximum color deposition along with superior
-                    conditioning. Dyestuff and base materials are also available
-                    for semi-permanent and specialty systems.
+                    FROM SINGLE, DOUBLE & TRIPLE REINFORCING, to oxidation
+                    dyeing to bright acid dyeing for sheepskin and fine furs,
+                    such as mink, fox or sable, our technological expertise and
+                    creative flair has distinguished JHL as the leading supplier
+                    to the world’s fur dressers and dyers.
                   </p>
                   <a
                     className='btn rounded-xl text-white font-semibold bg-pink-400 hover:bg-white shadow hover:text-pink-400 hover:border-violet-300'
@@ -146,7 +147,7 @@ export default function furZigZag() {
                   <p className='text-xl font-medium text-gray-300 mb-4'>
                     {' '}
                     With over 100 years of experience in the chemistry of fur
-                    dyeing and processing, JHL is the world leader in fur color
+                    dyeing and processing, JHL is the world leader in fur
                     technology.
                   </p>
                   <a

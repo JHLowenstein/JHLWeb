@@ -11,6 +11,7 @@ import Head from 'next/head'
 import Hero from '@/components/hero-home'
 import ZigZag from '@/components/homeZigZag'
 import Target from '@/components/home-target'
+import Contact from '@/components/cta'
 import Newsletter from '@/components/newsletter'
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <ZigZag />
 
       <Target />
+      <Contact />
       <Newsletter />
     </>
   )

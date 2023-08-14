@@ -1,9 +1,5 @@
-import HeroLogo from '@/public/images/favicon.png'
 import Image from 'next/image'
-import Hair from '@/public/images/hair-hero.png'
-import Fur from '@/public/images/fm.png'
-import Leather from '@/public/images/lm.png'
-import Link from 'next/link'
+import Leather from '@/public/images/leather-hero.png'
 
 export default function Hero() {
   return (
@@ -12,7 +8,7 @@ export default function Hero() {
       <div className='absolute inset-0'>
         <Image
           className='w-full h-full object-cover'
-          src={Hair}
+          src={Leather}
           width={1440}
           height={394}
           priority
@@ -34,20 +30,22 @@ export default function Hero() {
 
                 {/* text content*/}
                 <h1 className='h1 mb-4' data-aos='fade-up' data-aos-delay='200'>
+                  JHL are{' '}
                   <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                    JHL is Transforming
+                    LEADERS
                   </span>{' '}
+                  in
                   <br />
-                  <span className='text-pink-300'>HAIR COLOR</span>
+                  LEATHER COLOR
                 </h1>
                 <p
-                  className='text-xl font-semibold text-white mb-10 '
+                  className='text-xl font-semibold text-white  '
                   data-aos='fade-up'
                   data-aos-delay='200'
                 >
-                  the new{' '}
-                  <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                    YOU
+                  {' '}
+                  <span className='text-transparent font-bold bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
+                    FASHION
                   </span>{' '}
                   is born in our color labs{' '}
                 </p>
@@ -58,7 +56,7 @@ export default function Hero() {
                 >
                   <Image
                     className='rounded-xl w-full h-full obect-cover mt-10 '
-                    src={Hair}
+                    src={Leather}
                     width={300}
                     height={300}
                     alt='hair model'

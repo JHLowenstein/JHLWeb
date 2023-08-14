@@ -8,7 +8,7 @@ export default function Blocks() {
             <h3 className='h3 mb-4'>
               Our technical staff is knowledgeable in all phases of the{' '}
               <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                Hair Color Formulator’s
+                Leather Color Formulator’s
               </span>{' '}
               requirements.
             </h3>

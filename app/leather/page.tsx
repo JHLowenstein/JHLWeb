@@ -3,18 +3,18 @@ export const metadata = {
   description: 'Page description',
 }
 
-import PricingTables from '@/components/pricing-tables'
-import Faqs from '@/components/faqs'
-import Testimonials from '@/components/testimonials'
+import Hero from '@/components/leather/hero-leather'
+import Zig from '@/components/leather/leatherZigZag'
+import NewsLetter from '@/components/newsletter'
 import Cta from '@/components/cta'
 
 export default function Leather() {
   return (
     <>
-      <PricingTables />
-      <Faqs />
-      <Testimonials />
+      <Hero />
+      <Zig />
       <Cta />
+      <NewsLetter />
     </>
   )
 }
