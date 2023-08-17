@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Cover from '@/public/images/hpc.png'
+import Cover from '@/public/images/fur-prod-hero.png'
 
 export default function Hero() {
   return (
@@ -38,11 +38,7 @@ export default function Hero() {
               data-aos-delay='200'
             >
               Our team of expert chemists and technical staff is dedicated to
-              delivering exceptional{' '}
-              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                FUR COLOR
-              </span>{' '}
-              formulation services.
+              delivering exceptional FUR COLOR formulation services.
             </p>
           </div>
         </div>

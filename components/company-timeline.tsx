@@ -191,6 +191,41 @@ export default function Timeline() {
                 </p>
               </div>
             </div>
+            {/* 6th item */}
+            <div
+              className='relative py-4 md:py-6 pl-24'
+              data-aos='fade-up'
+              data-aos-delay='600'
+              data-aos-anchor='[data-aos-id-timeline]'
+            >
+              <div className='pl-2'>
+                <div className=' text-xl text-amber-500 mb-2'></div>
+                <div className='flex items-center mb-3'>
+                  <div className='absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-sky-600 bg-sky-200 rounded-full'>
+                    2012
+                  </div>
+                  <div
+                    className='absolute left-0 h-full px-px bg-violet-300 ml-20 self-start transform -translate-x-1/2 translate-y-3'
+                    aria-hidden='true'
+                  ></div>
+                  <div
+                    className='absolute left-0 w-2 h-2 bg-sky-500 border-4 box-content border-snow-900 rounded-full ml-20 transform -translate-x-1/2'
+                    aria-hidden='true'
+                  ></div>
+                  <h4 className='h4'>Hail to the Cheif</h4>
+                </div>
+                <p className='text-lg '>
+                  DAVID IS CROWNED the new President of Jos. H. Lowenstein &
+                  Sons, as Steve takes on Chairman responsibilities. Another
+                  Lowenstein visionary, David declares that the commitment made
+                  by his great grandfather over 100 years ago will still remain
+                  the guiding principal behind the company- unequalled product
+                  innovation and fashion firsts, personalized service beyond
+                  reproach, and value far exceeding market standards. As it
+                  should be.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

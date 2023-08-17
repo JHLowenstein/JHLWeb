@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import Mosaic01 from '@/public/images/hpm4.png'
-import Mosaic02 from '@/public/images/hpm5.png'
-import Mosaic03 from '@/public/images/hm5.png'
+import Mosaic01 from '@/public/images/fur-prod-1.png'
+import Mosaic02 from '@/public/images/fur-prod-3.png'
+import Mosaic03 from '@/public/images/fur-prod-2.png'
 
 export default function Images() {
   return (
@@ -20,14 +20,14 @@ export default function Images() {
               }}
               data-aos='fade-right'
             >
-              <Image
+              {/* <Image
                 className='md:block hidden'
                 src={Mosaic03}
                 width='220'
                 height='240'
                 alt='Team mosaic 02'
                 style={{ pointerEvents: 'none' }}
-              />
+              /> */}
             </figure>
             <figure
               className='relative mx-auto h-auto'
@@ -54,13 +54,13 @@ export default function Images() {
               data-aos='fade-left'
               data-aos-delay='200'
             >
-              <Image
+              {/* <Image
                 src={Mosaic01}
                 width='220'
                 height='240'
                 alt='Team mosaic 03'
                 style={{ pointerEvents: 'none' }}
-              />
+              /> */}
             </figure>
           </div>
         </div>

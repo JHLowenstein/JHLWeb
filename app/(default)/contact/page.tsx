@@ -10,10 +10,15 @@ export const metadata = {
 import Content from '@/components/contactContent'
 import World from '@/components/countries'
 import CTA from '@/components/cta'
+import Particles from '@/components/particles'
 
 export default function Contact() {
   return (
     <>
+      <Particles
+        className='absolute inset-0 -z-10 animate-fade-in'
+        quantity={200}
+      />
       <Content />
       <World />
       <CTA />

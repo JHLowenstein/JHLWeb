@@ -39,11 +39,7 @@ export default function HeroAbout() {
               data-aos-delay='200'
             >
               Our team of expert chemists and technical staff is dedicated to
-              delivering exceptional{' '}
-              <span className='text-transparent bg-clip-text  bg-gradient-to-r from-pink-300 via-emerald-300 to-violet-300 '>
-                COLOR
-              </span>{' '}
-              formulation services.
+              delivering exceptional COLOR formulation services.
             </p>
           </div>
         </div>
