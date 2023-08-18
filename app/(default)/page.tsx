@@ -21,10 +21,10 @@ export default function Home() {
       </Head>
       <Hero />
 
-      <ZigZag />
+      {/* <ZigZag /> */}
 
-      <Target />
-      <Contact />
+      {/* <Target /> */}
+      {/* <Contact /> */}
     </>
   )
 }
