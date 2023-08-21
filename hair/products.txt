@@ -6,7 +6,7 @@
 7:HL["/_next/static/css/f76788cadc76491e.css",{"as":"style"}]
 8:I{"id":"9544","chunks":["272:static/chunks/webpack-e2eda46a8894f421.js","667:static/chunks/2443530c-6153b4d89518885d.js","139:static/chunks/139-33f74a822d4c3ffa.js"],"name":"","async":false}
 9:I{"id":"99","chunks":["272:static/chunks/webpack-e2eda46a8894f421.js","667:static/chunks/2443530c-6153b4d89518885d.js","139:static/chunks/139-33f74a822d4c3ffa.js"],"name":"","async":false}
-a:I{"id":"2011","chunks":["11:static/chunks/11-412b9bc294c2257c.js","135:static/chunks/app/leather/services/page-0297682c2e2c4224.js"],"name":"","async":false}
+a:I{"id":"2011","chunks":["11:static/chunks/11-412b9bc294c2257c.js","49:static/chunks/app/leather/products/page-6e73681cbf1f3024.js"],"name":"","async":false}
 b:I{"id":"414","chunks":["11:static/chunks/11-412b9bc294c2257c.js","414:static/chunks/414-27efe2dafe7c5a28.js","315:static/chunks/315-d50767e5555a2cfc.js","897:static/chunks/897-e911f6b4a305a37c.js","541:static/chunks/app/leather/contact/page-acc592c153e0b83e.js"],"name":"","async":false}
 c:I{"id":"5130","chunks":["414:static/chunks/414-27efe2dafe7c5a28.js","789:static/chunks/789-1018c16380e25aff.js","687:static/chunks/app/hair/layout-73600208e4aba499.js"],"name":"","async":false}
 d:I{"id":"6497","chunks":["11:static/chunks/11-412b9bc294c2257c.js","470:static/chunks/app/hair/products/page-0274bc501bec6076.js"],"name":"","async":false}
