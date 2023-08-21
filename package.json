@@ -1,13 +1,13 @@
 {
-  "name": "open-pro-next",
-  
+  "name": "jhl_web",
+  "homepage": "https://JHLowenstein.github.io/JHLWeb",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d out"
   },
