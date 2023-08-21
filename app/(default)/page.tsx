@@ -9,9 +9,7 @@ export const metadata = {
 import Head from 'next/head'
 
 import Hero from '@/components/hero-home'
-import ZigZag from '@/components/homeZigZag'
-import Target from '@/components/home-target'
-import Contact from '@/components/cta'
+import Card from '@/components/home-card-mobile'
 
 export default function Home() {
   return (
@@ -20,11 +18,7 @@ export default function Home() {
         <meta property='og:image' content='@/public/images/leather-hero.png' />
       </Head>
       <Hero />
-
-      {/* <ZigZag /> */}
-
-      {/* <Target /> */}
-      {/* <Contact /> */}
+      <Card />
     </>
   )
 }

@@ -61,8 +61,8 @@ export default function HeroHome() {
             </div>
           </div>
         </div>
-        <section className='pb-40 hidden md:block'>
-          <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20'>
+        <section className='pb-40 '>
+          <div className='max-w-6xl mx-auto px-4 sm:px-6 md:mb-20 hidden md:block'>
             <div className=''>
               {/*  */}
               <div className='max-w-sm mx-auto grid gap-8 lg:grid-cols-3  items-start lg:max-w-none'>
