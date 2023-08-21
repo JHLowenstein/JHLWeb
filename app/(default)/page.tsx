@@ -14,9 +14,6 @@ import Card from '@/components/home-card-mobile'
 export default function Home() {
   return (
     <>
-      <Head>
-        <meta property='og:image' content='@/public/images/leather-hero.png' />
-      </Head>
       <Hero />
       <Card />
     </>

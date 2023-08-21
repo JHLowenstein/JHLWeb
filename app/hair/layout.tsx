@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import '@/app/css/style.css'
+import '@/public/css/style.css'
 import HairHeader from '@/components/ui/hairHeader'
 import Footer from '@/components/ui/footer'
 

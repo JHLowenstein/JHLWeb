@@ -1,4 +1,4 @@
-import './css/style.css'
+import '@/public/css/style.css'
 
 import { Inter, Architects_Daughter } from 'next/font/google'
 
